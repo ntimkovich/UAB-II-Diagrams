@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T16:19:13.401Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OdKrBpTpud4p4ctfqITX" version="20.2.2" type="github">
-  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+<mxfile host="app.diagrams.net" modified="2022-08-02T19:27:50.622Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="VrNh2-zuBMjDWwqPEThZ" version="20.2.2" type="github" pages="2">
+  <diagram name="Overall Normal Workflow" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1178" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -13,7 +13,7 @@
         <mxCell id="77e6c97f196da883-8" value="Initial Contact with Requester" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="20" y="60" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-9" value="RedCAP Intake Form" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
+        <mxCell id="77e6c97f196da883-9" value="Intake Form for Tracking Request" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-2" vertex="1">
           <mxGeometry x="20" y="150" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-2" source="77e6c97f196da883-8" target="77e6c97f196da883-9" edge="1">
@@ -51,7 +51,7 @@
         <mxCell id="ICng1ieGqrjUcXiE3lIN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-3" source="77e6c97f196da883-15" target="ICng1ieGqrjUcXiE3lIN-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-15" value="Initial Documentation, Project Type Identification" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
+        <mxCell id="77e6c97f196da883-15" value="Initial Documentation, Project Type Identification, etc" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="30" y="60" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="77e6c97f196da883-3" source="ICng1ieGqrjUcXiE3lIN-16" target="ICng1ieGqrjUcXiE3lIN-28" edge="1">
@@ -109,7 +109,7 @@
         <mxCell id="ICng1ieGqrjUcXiE3lIN-22" value="Clinical Data Elements/Concepts Review and Determination" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="30" y="150" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ICng1ieGqrjUcXiE3lIN-25" value="Initial Documentation&lt;br&gt;(Source Data location, calculated fields, Encounter filters, etc)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
+        <mxCell id="ICng1ieGqrjUcXiE3lIN-25" value="Expanded Documentation&lt;br&gt;(Source Data location, calculated fields, Encounter filters, etc)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="30" y="240" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;" parent="77e6c97f196da883-4" source="ICng1ieGqrjUcXiE3lIN-29" target="ICng1ieGqrjUcXiE3lIN-22" edge="1">
@@ -130,8 +130,8 @@
         <mxCell id="ICng1ieGqrjUcXiE3lIN-45" value="&lt;b&gt;i2b2 &lt;/b&gt;&lt;br&gt;Hypothesis Testing, Clinical Concept Exploration, Population of Interest Determined" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="25" y="425" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ICng1ieGqrjUcXiE3lIN-55" value="&lt;b&gt;Data Definitions&lt;/b&gt;&lt;br&gt;Population of Interest, Date Constraints, proxy data elements, specific concepts, calculated variables, dataset structure" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
-          <mxGeometry x="25" y="520" width="100" height="90" as="geometry" />
+        <mxCell id="ICng1ieGqrjUcXiE3lIN-55" value="&lt;b&gt;Data Definitions&lt;/b&gt;&lt;br&gt;Population of Interest, Date Constraints, proxy data elements, specific concepts, calculated variables, dataset structure&lt;br&gt;&lt;i&gt;OR&lt;/i&gt;&lt;br&gt;&lt;b&gt;Standard Dataset Use&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;" parent="77e6c97f196da883-5" vertex="1">
+          <mxGeometry x="10" y="520" width="130" height="120" as="geometry" />
         </mxCell>
         <mxCell id="77e6c97f196da883-6" value="Build" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="650" y="20" width="160" height="730" as="geometry" />
@@ -217,13 +217,6 @@
             <mxPoint x="-116" y="-32" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ICng1ieGqrjUcXiE3lIN-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Verdana;fontSize=8;" parent="77e6c97f196da883-1" source="ICng1ieGqrjUcXiE3lIN-55" target="ICng1ieGqrjUcXiE3lIN-60" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="525" y="610" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-69" value="" style="endArrow=classic;html=1;rounded=0;fontFamily=Verdana;fontSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" parent="77e6c97f196da883-1" source="ICng1ieGqrjUcXiE3lIN-59" target="ICng1ieGqrjUcXiE3lIN-73" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="690" as="sourcePoint" />
@@ -282,6 +275,13 @@
         <mxCell id="_pnJBIeOAMV3EheFCgYe-20" value="Self-Service" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="_pnJBIeOAMV3EheFCgYe-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-248" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_pnJBIeOAMV3EheFCgYe-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#FFFFFF;" edge="1" parent="77e6c97f196da883-1" source="ICng1ieGqrjUcXiE3lIN-55" target="ICng1ieGqrjUcXiE3lIN-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="610" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-2" value="Invalid Request" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.polygon;polyCoords=[[0.25,0],[0.75,0],[1,0.25],[1,0.75],[0.75,1],[0.25,1],[0,0.75],[0,0.25]];polyline=0;fillColor=#FF3333;" parent="1" vertex="1">
@@ -349,6 +349,14 @@
             <mxPoint y="-172" as="offset" />
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="b93gqnwrSW7FECcNW-AN" name="Page-2">
+    <mxGraphModel dx="1472" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
