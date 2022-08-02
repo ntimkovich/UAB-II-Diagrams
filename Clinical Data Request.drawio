@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T20:55:22.213Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="tYwTG0h7S-X4ixyBSXfW" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-02T20:59:08.912Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="xhUeqL26Q7-xBBXA0DQ3" version="20.2.2" type="github" pages="2">
   <diagram name="Overall Workflow" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1472" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="77e6c97f196da883-1" value="Clinical Data Request Process" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=14;align=center;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="70" y="40" width="992" height="750" as="geometry" />
+          <mxGeometry x="70" y="40" width="970" height="750" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-2" value="Intake" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-2" value="Intake" style="swimlane;html=1;startSize=20;strokeColor=#B3B3B3;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry y="20" width="160" height="730" as="geometry">
             <mxRectangle y="20" width="40" height="730" as="alternateBounds" />
           </mxGeometry>
@@ -47,7 +47,7 @@
         <mxCell id="_pnJBIeOAMV3EheFCgYe-16" value="Yes" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=10;" connectable="0" vertex="1" parent="_pnJBIeOAMV3EheFCgYe-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-3" value="Feasibility Analysis" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-3" value="Feasibility Analysis" style="swimlane;html=1;startSize=20;strokeColor=#B3B3B3;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="160" y="20" width="170" height="730" as="geometry" />
         </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-3" source="77e6c97f196da883-15" target="ICng1ieGqrjUcXiE3lIN-16" edge="1">
@@ -102,7 +102,7 @@
         <mxCell id="ICng1ieGqrjUcXiE3lIN-60" value="IRB Review&lt;br&gt;(Approved, Exempt, NHSR)" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-3" vertex="1">
           <mxGeometry x="30" y="560" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-4" value="Scientific Gateway" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-4" value="Scientific Gateway" style="swimlane;html=1;startSize=20;strokeColor=#B3B3B3;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="330" y="20" width="170" height="730" as="geometry" />
         </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="77e6c97f196da883-4" source="ICng1ieGqrjUcXiE3lIN-22" target="ICng1ieGqrjUcXiE3lIN-25" edge="1">
@@ -120,7 +120,7 @@
         <mxCell id="ICng1ieGqrjUcXiE3lIN-29" value="&lt;p style=&quot;margin-top: 0pt; margin-bottom: 0pt; margin-left: 0in; direction: ltr; unicode-bidi: embed; word-break: normal;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;Evaluation&lt;br&gt;of Methodology, Scientific Need, Design&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-4" vertex="1">
           <mxGeometry x="30" y="60" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-5" value="Data Gateway" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-5" value="Data Gateway" style="swimlane;html=1;startSize=20;strokeColor=#B3B3B3;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="500" y="20" width="150" height="730" as="geometry" />
         </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;" parent="77e6c97f196da883-5" source="ICng1ieGqrjUcXiE3lIN-39" target="ICng1ieGqrjUcXiE3lIN-45" edge="1">
@@ -135,7 +135,7 @@
         <mxCell id="ICng1ieGqrjUcXiE3lIN-55" value="&lt;b&gt;Data Definitions&lt;/b&gt;&lt;br&gt;Population of Interest, Date Constraints, proxy data elements, specific concepts, calculated variables, dataset structure&lt;br&gt;&lt;i&gt;OR&lt;/i&gt;&lt;br&gt;&lt;b&gt;Standard Dataset Use&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-5" vertex="1">
           <mxGeometry x="10" y="520" width="130" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-6" value="Build" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-6" value="Build" style="swimlane;html=1;startSize=20;strokeColor=#B3B3B3;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="650" y="20" width="160" height="730" as="geometry" />
         </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;fontSize=8;" parent="77e6c97f196da883-6" source="ICng1ieGqrjUcXiE3lIN-65" target="ICng1ieGqrjUcXiE3lIN-75" edge="1">
@@ -156,7 +156,7 @@
         <mxCell id="ICng1ieGqrjUcXiE3lIN-75" value="Dataset Refinement &lt;br&gt;and Approval&lt;br&gt;&lt;b&gt;[Feedback Loop]&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-6" vertex="1">
           <mxGeometry x="30" y="620" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="77e6c97f196da883-7" value="Delivery" style="swimlane;html=1;startSize=20;" parent="77e6c97f196da883-1" vertex="1">
+        <mxCell id="77e6c97f196da883-7" value="Delivery" style="swimlane;html=1;startSize=20;strokeColor=#B3B3B3;" parent="77e6c97f196da883-1" vertex="1">
           <mxGeometry x="810" y="20" width="160" height="730" as="geometry" />
         </mxCell>
         <mxCell id="ICng1ieGqrjUcXiE3lIN-77" value="Oracle Process for routine dataset generation" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="77e6c97f196da883-7" vertex="1">
@@ -443,7 +443,7 @@
         <mxCell id="Yvfhyada4gueQQQA85GS-15" value="No" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;fontSize=10;fontColor=#000000;" connectable="0" vertex="1" parent="Yvfhyada4gueQQQA85GS-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Yvfhyada4gueQQQA85GS-21" value="Cohort Build" style="swimlane;horizontal=0;fontSize=10;fontColor=#000000;startSize=20;" vertex="1" parent="1">
+        <mxCell id="Yvfhyada4gueQQQA85GS-21" value="Cohort Build" style="swimlane;horizontal=0;fontSize=10;fontColor=#000000;startSize=20;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="40" y="560" width="710" height="400" as="geometry" />
         </mxCell>
         <mxCell id="Yvfhyada4gueQQQA85GS-34" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontSize=10;fontColor=#000000;endArrow=none;endFill=0;entryX=-0.007;entryY=0.195;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="Yvfhyada4gueQQQA85GS-21" source="Yvfhyada4gueQQQA85GS-28" target="Yvfhyada4gueQQQA85GS-30">
@@ -528,7 +528,7 @@
         <mxCell id="Yvfhyada4gueQQQA85GS-105" value="RQ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="Yvfhyada4gueQQQA85GS-21">
           <mxGeometry x="160" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yvfhyada4gueQQQA85GS-24" value="Intake" style="swimlane;horizontal=0;fontSize=10;startSize=20;" vertex="1" parent="1">
+        <mxCell id="Yvfhyada4gueQQQA85GS-24" value="Intake" style="swimlane;horizontal=0;fontSize=10;startSize=20;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="40" y="90" width="710" height="470" as="geometry" />
         </mxCell>
         <mxCell id="Yvfhyada4gueQQQA85GS-25" value="IN" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="Yvfhyada4gueQQQA85GS-24">
@@ -552,7 +552,7 @@
         <mxCell id="Yvfhyada4gueQQQA85GS-17" value="DataLens Assets&lt;br&gt;(Request, Project, Protocol)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Yvfhyada4gueQQQA85GS-24">
           <mxGeometry x="385" y="360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Yvfhyada4gueQQQA85GS-58" value="Dataset Build" style="swimlane;horizontal=0;fontSize=10;fontColor=#000000;startSize=20;" vertex="1" parent="1">
+        <mxCell id="Yvfhyada4gueQQQA85GS-58" value="Dataset Build" style="swimlane;horizontal=0;fontSize=10;fontColor=#000000;startSize=20;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="40" y="960" width="710" height="580" as="geometry" />
         </mxCell>
         <mxCell id="Yvfhyada4gueQQQA85GS-62" value="Comprehensive Dataset" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Yvfhyada4gueQQQA85GS-58" source="Yvfhyada4gueQQQA85GS-59" target="Yvfhyada4gueQQQA85GS-61">
@@ -661,7 +661,7 @@
             <mxPoint x="570" y="1085" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Yvfhyada4gueQQQA85GS-90" value="Wrap-Up" style="swimlane;horizontal=0;fontSize=10;fontColor=#000000;startSize=20;" vertex="1" parent="1">
+        <mxCell id="Yvfhyada4gueQQQA85GS-90" value="Wrap-Up" style="swimlane;horizontal=0;fontSize=10;fontColor=#000000;startSize=20;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="40" y="1540" width="710" height="250" as="geometry" />
         </mxCell>
         <mxCell id="Yvfhyada4gueQQQA85GS-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Yvfhyada4gueQQQA85GS-90" source="Yvfhyada4gueQQQA85GS-91" target="Yvfhyada4gueQQQA85GS-93">
@@ -702,6 +702,9 @@
           <mxGeometry x="-0.8596" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="wjBPw5N3w1OndFpgG2A3-1" value="Clinical Data Request - Build Workflow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;opacity=50;strokeColor=default;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
+          <mxGeometry x="240" y="20" width="320" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
