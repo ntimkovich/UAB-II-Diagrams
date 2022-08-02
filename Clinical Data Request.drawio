@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-02T20:52:26.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="UqouHEkTed1211UDLt1P" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-02T20:53:53.900Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="IAvELmOQGgRvcaDsEBht" version="20.2.2" type="github" pages="2">
   <diagram name="Overall Normal Workflow" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1472" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -458,7 +458,7 @@
         <mxCell id="Yvfhyada4gueQQQA85GS-28" value="Define Patients/ Encounters based on Researcher Criteria" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="Yvfhyada4gueQQQA85GS-21">
           <mxGeometry x="60" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Yvfhyada4gueQQQA85GS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;startArrow=none;startFill=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="Yvfhyada4gueQQQA85GS-21" source="Yvfhyada4gueQQQA85GS-29" target="Yvfhyada4gueQQQA85GS-30">
+        <mxCell id="Yvfhyada4gueQQQA85GS-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=10;fontColor=#000000;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="Yvfhyada4gueQQQA85GS-21" source="Yvfhyada4gueQQQA85GS-29" target="Yvfhyada4gueQQQA85GS-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Yvfhyada4gueQQQA85GS-29" value="DataLens Cohort" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Yvfhyada4gueQQQA85GS-21">
@@ -549,7 +549,7 @@
         <mxCell id="Yvfhyada4gueQQQA85GS-104" value="RQ" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;fontColor=#000000;" vertex="1" parent="Yvfhyada4gueQQQA85GS-24">
           <mxGeometry x="180" y="60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Yvfhyada4gueQQQA85GS-110" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;LEGEND&lt;/font&gt;&lt;br&gt;&lt;br&gt;RQ = &quot;Requester&quot;&lt;br&gt;IN = &quot;Intake Expert&quot;&lt;br&gt;EX = &quot;Extraction Team&quot;&lt;br&gt;TT = &quot;Transformation Team&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="Yvfhyada4gueQQQA85GS-24">
+        <mxCell id="Yvfhyada4gueQQQA85GS-110" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;LEGEND&lt;/font&gt;&lt;br&gt;&lt;br&gt;RQ = &quot;Requester&quot;&lt;br&gt;IN = &quot;Intake Expert&quot;&lt;br&gt;EX = &quot;Extraction Team&quot;&lt;br&gt;TT = &quot;Transformation Team&quot;" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=10;fillColor=#bac8d3;strokeColor=#23445d;fontColor=#000000;" vertex="1" parent="Yvfhyada4gueQQQA85GS-24">
           <mxGeometry x="550" y="20" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="Yvfhyada4gueQQQA85GS-17" value="DataLens Assets&lt;br&gt;(Request, Project, Protocol)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=10;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="Yvfhyada4gueQQQA85GS-24">
