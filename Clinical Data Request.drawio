@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-03T20:25:08.951Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="4mTxs72QZBDiiYBLY97-" version="20.2.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-08-03T21:42:23.087Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Ldn9Pi3oEYcDFvySIpoJ" version="20.2.2" type="github" pages="3">
   <diagram name="Overall Workflow" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1472" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -708,6 +708,65 @@
         </mxCell>
         <mxCell id="wjBPw5N3w1OndFpgG2A3-1" value="Clinical Data Request - Build Workflow" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=17;opacity=50;strokeColor=default;fillColor=#FFFFFF;fillStyle=solid;" vertex="1" parent="1">
           <mxGeometry x="240" y="20" width="320" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="_8HPKiXuxlF7wbGgdM4X" name="Self-Service Workflow">
+    <mxGraphModel dx="1178" dy="903" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="hKeFI0-8XMgbBv16D8l3-1" target="hKeFI0-8XMgbBv16D8l3-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-1" value="Requester" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillStyle=solid;fontSize=17;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="145" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="hKeFI0-8XMgbBv16D8l3-3" target="hKeFI0-8XMgbBv16D8l3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="hKeFI0-8XMgbBv16D8l3-3" target="hKeFI0-8XMgbBv16D8l3-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-3" value="Create Population of Interest in i2b2&lt;br&gt;(Cohort, &lt;i&gt;PatientSet&lt;/i&gt;)" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#10739e;fillColor=#b1ddf0;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="70" y="170" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="hKeFI0-8XMgbBv16D8l3-4" target="hKeFI0-8XMgbBv16D8l3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-4" value="Download &lt;b&gt;Standard Datasets&lt;/b&gt; for Cohort in DataLENS" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#10739e;fillColor=#b1ddf0;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="70" y="360" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="hKeFI0-8XMgbBv16D8l3-5" target="hKeFI0-8XMgbBv16D8l3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-5" value="Download &lt;b&gt;Custom Datasets&lt;/b&gt; for Cohort in DataLENS" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#10739e;fillColor=#b1ddf0;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="70" y="550" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-6" value="Manage Project Assets and People in DataLENS" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#10739e;fillColor=#b1ddf0;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="70" y="740" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;fontSize=15;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="hKeFI0-8XMgbBv16D8l3-13" target="hKeFI0-8XMgbBv16D8l3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-13" value="i2b2 logs Cohort as PatientSet, sends details to DataLENS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=solid;fontSize=17;strokeColor=#0e8088;fillColor=#b0e3e6;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="425" y="160" width="235" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.007;exitY=0.685;exitDx=0;exitDy=0;dashed=1;fontSize=15;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="hKeFI0-8XMgbBv16D8l3-14" target="hKeFI0-8XMgbBv16D8l3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-14" value="All datasets are linked to Asset Record and all downloads are tracked (as Data Deliveries)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=solid;fontSize=17;strokeColor=#0e8088;fillColor=#b0e3e6;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="425" y="345" width="235" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;fontSize=15;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="hKeFI0-8XMgbBv16D8l3-15" target="hKeFI0-8XMgbBv16D8l3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-15" value="EDW Analyst produces additional datasets and logs them in DataLENS for this project" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=solid;fontSize=17;strokeColor=#0e8088;fillColor=#b0e3e6;opacity=50;" vertex="1" parent="1">
+          <mxGeometry x="425" y="535" width="235" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hKeFI0-8XMgbBv16D8l3-16" value="Downloads managed by AuthZ Verification Process" style="swimlane;startSize=20;fillStyle=solid;fontSize=15;fontColor=#000000;strokeColor=default;fillColor=#EA6B66;opacity=50;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="680" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
