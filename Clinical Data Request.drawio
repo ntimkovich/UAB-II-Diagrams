@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-04T13:47:24.583Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ma7VynjOiIPk9uec0ODA" version="20.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-04T14:00:56.431Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="afZe04c7BYviSTFv4kD_" version="20.2.3" type="github" pages="5">
   <diagram name="Overall Workflow" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1472" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -375,9 +375,17 @@
             <mxPoint x="800" y="821" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Co1qwD8KeL7HL2fnkDNT-13" value="Refer to Build Workflow Diagram for more detail" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fillColor=#e1d5e7;opacity=50;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="oxkqJvsW4ip-jg9JhXYu-2" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="750" y="811" width="100" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="Co1qwD8KeL7HL2fnkDNT-13" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=11;fillColor=#e1d5e7;opacity=50;strokeColor=#9673a6;" parent="oxkqJvsW4ip-jg9JhXYu-2" vertex="1">
+          <mxGeometry width="100" height="100" as="geometry" />
+        </mxCell>
+        <UserObject label="Refer to Build Workflow for more detail" link="data:page/id,b93gqnwrSW7FECcNW-AN" id="oxkqJvsW4ip-jg9JhXYu-1">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="oxkqJvsW4ip-jg9JhXYu-2">
+            <mxGeometry x="10" y="29" width="80" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
@@ -876,6 +884,85 @@
         </mxCell>
         <mxCell id="R_n4MekViQKV5N7tAJyq-11" value="Download Files from DataLENS" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#10739e;fillColor=#b1ddf0;opacity=50;" vertex="1" parent="EBnqUCayEPRrPAqrEIOf-17">
           <mxGeometry x="40" y="90" width="180" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Assisted Custom Cohort Workflow" id="cgyIOomBWQCxZqRKWAu-">
+    <mxGraphModel dx="1472" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-0" />
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-1" parent="Kem_2lp-Fk_G5N8h8fD9-0" />
+        <mxCell id="VTXfIA8P8_uvOolkBnpX-0" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="Kem_2lp-Fk_G5N8h8fD9-3" target="Kem_2lp-Fk_G5N8h8fD9-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-3" value="Requester" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillStyle=solid;fontSize=17;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="145" y="-150" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-12" value="Cohort (&lt;i&gt;PatientSet&lt;/i&gt;) logged in i2b2, &lt;i&gt;Cohort&lt;/i&gt; record created in DataLENS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=solid;fontSize=17;strokeColor=#0e8088;fillColor=#b0e3e6;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="425" y="340" width="235" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VTXfIA8P8_uvOolkBnpX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="Kem_2lp-Fk_G5N8h8fD9-18" target="Kem_2lp-Fk_G5N8h8fD9-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-18" value="Create Data Request &lt;br&gt;in DataLENS" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#10739e;fillColor=#b1ddf0;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="70" y="-20" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="VTXfIA8P8_uvOolkBnpX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="Kem_2lp-Fk_G5N8h8fD9-21" target="VTXfIA8P8_uvOolkBnpX-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-21" value="Request enters Request Queue with New status in DataLENS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=solid;fontSize=17;strokeColor=#0e8088;fillColor=#b0e3e6;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="425" y="-35" width="235" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="Kem_2lp-Fk_G5N8h8fD9-25" target="Kem_2lp-Fk_G5N8h8fD9-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-25" value="Verify Protocol" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#9673a6;fillColor=#e1d5e7;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="255" y="510" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="Kem_2lp-Fk_G5N8h8fD9-27" target="Kem_2lp-Fk_G5N8h8fD9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-27" value="Assign &lt;br&gt;EDW Developer" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#9673a6;fillColor=#e1d5e7;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="255" y="670" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="Kem_2lp-Fk_G5N8h8fD9-29" target="Kem_2lp-Fk_G5N8h8fD9-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-29" value="Create Datasets, Asset Records in DataLENS" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=solid;fontSize=17;strokeColor=#0e8088;fillColor=#b0e3e6;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="425" y="830" width="235" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="Kem_2lp-Fk_G5N8h8fD9-31" target="Kem_2lp-Fk_G5N8h8fD9-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="543" y="1220" />
+              <mxPoint x="160" y="1220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-31" value="Notify User that Datasets are available, mark Request as Complete" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=solid;fontSize=17;strokeColor=#0e8088;fillColor=#b0e3e6;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="425" y="1000" width="235" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-32" value="Downloads managed by AuthZ Verification Process" style="swimlane;startSize=20;fillStyle=solid;fontSize=15;fontColor=#000000;strokeColor=default;fillColor=#EA6B66;opacity=50;fontStyle=0" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="30" y="1170" width="680" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="auA-AXQ3SVk0GQiQcpOz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-32" source="Kem_2lp-Fk_G5N8h8fD9-33" target="auA-AXQ3SVk0GQiQcpOz-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Kem_2lp-Fk_G5N8h8fD9-33" value="Download Files from DataLENS" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#10739e;fillColor=#b1ddf0;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-32">
+          <mxGeometry x="40" y="90" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="auA-AXQ3SVk0GQiQcpOz-0" value="All datasets are linked to Asset Record and all downloads are tracked (as Data Deliveries)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillStyle=solid;fontSize=17;strokeColor=#0e8088;fillColor=#b0e3e6;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-32">
+          <mxGeometry x="390" y="75" width="235" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="VTXfIA8P8_uvOolkBnpX-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="VTXfIA8P8_uvOolkBnpX-1" target="Kem_2lp-Fk_G5N8h8fD9-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VTXfIA8P8_uvOolkBnpX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="Kem_2lp-Fk_G5N8h8fD9-1" source="VTXfIA8P8_uvOolkBnpX-1" target="Kem_2lp-Fk_G5N8h8fD9-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VTXfIA8P8_uvOolkBnpX-1" value="Assist user with building Cohort in i2b2" style="rounded=1;whiteSpace=wrap;html=1;fillStyle=solid;fontSize=17;strokeColor=#9673a6;fillColor=#e1d5e7;opacity=50;" vertex="1" parent="Kem_2lp-Fk_G5N8h8fD9-1">
+          <mxGeometry x="255" y="200" width="180" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
