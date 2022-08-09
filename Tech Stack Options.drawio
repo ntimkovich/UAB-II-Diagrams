@@ -1,1 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T13:04:31.100Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xRfczYvMDL-_ml_GNR76" version="20.2.3" type="github"><diagram id="u7b6ywFuzjr3DslcagBz" name="Page-1">xZVRb5swEIB/DY+VAIckfWxpsq1q1WrR1OeL8bAVg5G5lJBfP3tcIAhFWqVFeeL8+Wzs705ywNLi8M1CJV9NJnQQh9khYE9BHEcxm7mPJ21HFvP7DuRWZZQ0gI06CoIh0b3KRD1KRGM0qmoMuSlLwXHEwFrTjNN+Gz3+awW5mIANBz2lHypD2dFlEg78u1C5PP05CmmmgFMygVpCZpozxFYBS60x2EXFIRXayzt56datL8z2B7OixH9ZoHfr9a/X951N4Lhon2W4Xi7uaJdP0Hu68NvPh/RlRUfG9uTBnb7yIW+1KjNhWcAeG6lQbCrgfqJx9XdMYqHdKHLh1uxdZvay7QHwXW49fduj20YQr7uqR4mL6TzCojhcvGjU63N9J0wh0LYuhRawORmnlpsvadwMBYxmxORZ8fpSATVN3u89eHUBqf2C5nii+QkQHHngXNS1C1JTVKZ0N6yn6htVaPC2HqWx6mhKBK80/D+6lmNbSTy11Rs8txUl17LFLtp6/3FjO2xxczuziZ0PsfVyqkorDqhMeWNJ8e1bKJlISrXyt/mKmRrBIj1JMbuKqmu2kxsOr8vfubM3mq3+AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-09T16:51:12.348Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Eb2ZzRVo-OiWm1J64uNu" version="20.2.3" type="github" pages="2">
+  <diagram id="u7b6ywFuzjr3DslcagBz" name="Current">
+    <mxGraphModel dx="1509" dy="2062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lkFFUMPkr5az7yJh0F87-1" value="ORACLE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="360" y="680" width="140" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="lkFFUMPkr5az7yJh0F87-2" value="Data Access Components" style="swimlane;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="520" width="680" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BzqzEyKAfp6FgEG3ZBiI-2" value="Spring JDBC" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="lkFFUMPkr5az7yJh0F87-2">
+          <mxGeometry x="380" y="35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lkFFUMPkr5az7yJh0F87-4" value="Web Application" style="swimlane;horizontal=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="220" width="680" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BzqzEyKAfp6FgEG3ZBiI-3" value="Java" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lkFFUMPkr5az7yJh0F87-4">
+          <mxGeometry x="285" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lkFFUMPkr5az7yJh0F87-5" value="Client" style="swimlane;horizontal=0;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="80" y="-80" width="680" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BzqzEyKAfp6FgEG3ZBiI-4" value="React" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lkFFUMPkr5az7yJh0F87-5">
+          <mxGeometry x="145" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LKe9A2AT-Z6yylWAt6LW-4" value="CSS Frameworks?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lkFFUMPkr5az7yJh0F87-5">
+          <mxGeometry x="480" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LKe9A2AT-Z6yylWAt6LW-5" value="UI Components&lt;br&gt;Prime React" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="lkFFUMPkr5az7yJh0F87-5">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzqzEyKAfp6FgEG3ZBiI-5" value="Security" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="680" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="BzqzEyKAfp6FgEG3ZBiI-6" value="F5?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="BzqzEyKAfp6FgEG3ZBiI-5">
+          <mxGeometry x="145" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LKe9A2AT-Z6yylWAt6LW-6" value="Session?" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="BzqzEyKAfp6FgEG3ZBiI-5">
+          <mxGeometry x="380" y="35" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LKe9A2AT-Z6yylWAt6LW-2" value="Web Services" style="swimlane;horizontal=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="370" width="680" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LKe9A2AT-Z6yylWAt6LW-3" value="?" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LKe9A2AT-Z6yylWAt6LW-2">
+          <mxGeometry x="145" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BzqzEyKAfp6FgEG3ZBiI-1" value="Spring Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="LKe9A2AT-Z6yylWAt6LW-2">
+          <mxGeometry x="360" y="45" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="jfdiHvX0g28nQDg2KFg4" name="Industry Samples">
+    <mxGraphModel dx="1234" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s.yimg.com/ge/default/691231/Yahoo_Mail_Tech_Stack.png;" vertex="1" parent="1">
+          <mxGeometry x="165" y="190" width="520" height="286" as="geometry" />
+        </mxCell>
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.pinimg.com/originals/9d/ab/a3/9daba35979e22c26b5b40fb2e61b00cc.png;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="520" height="352" as="geometry" />
+        </mxCell>
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.researchgate.net/profile/Sherif-Abdelmohsen/publication/336641242/figure/fig1/AS:815536913002497@1571450560192/Technology-stack-diagram-of-the-proposed-S2S-school-management-system.png;" vertex="1" parent="1">
+          <mxGeometry x="170" y="950" width="520" height="322" as="geometry" />
+        </mxCell>
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.researchgate.net/profile/Molham-Aref/publication/262236548/figure/fig1/AS:296930971275270@1447805268714/Enterprise-software-components-and-technology-stack-example.png;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1410" width="272.84" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.clickittech.com/wp-content/uploads/2021/01/AWS-SAAS-Architecture-15-1024x984.jpg;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1360" width="520" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=http://admin.springsapps.com/uploads/da3f79af8edc429f98f9f072348b016d.png;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1860" width="520" height="226" as="geometry" />
+        </mxCell>
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-7" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://images.clickittech.com/wp-content/uploads/2020/12/blog-imagenes-SaaS-12-1024x608.jpg;" vertex="1" parent="1">
+          <mxGeometry x="320" y="2086" width="520" height="309" as="geometry" />
+        </mxCell>
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-8" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://s3-us-west-2.amazonaws.com/myed-prod/books/1582/docbook/resources/images/DM%20technology%20stack.png;" vertex="1" parent="1">
+          <mxGeometry x="165" y="2440" width="500" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="uxQ34kbCT0QyTVE4A2ME-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://engineering.linkedin.com/content/dam/engineering/site-assets/images/blog/posts/2021/12/evolvingtechstack1.png;" vertex="1" parent="1">
+          <mxGeometry x="155" y="3010" width="520" height="324" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
