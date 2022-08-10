@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-09T22:02:05.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="P08NmeX_PAppf4zlZ4IJ" version="20.2.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-08-10T15:00:16.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6J5wHRjjBt00fvm1eH23" version="20.2.3" type="github" pages="4">
   <diagram id="u7b6ywFuzjr3DslcagBz" name="Current">
     <mxGraphModel dx="1509" dy="2062" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -189,7 +189,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jfdiHvX0g28nQDg2KFg4" name="Industry Samples">
-    <mxGraphModel dx="1509" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="755" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -219,6 +219,9 @@
         </mxCell>
         <mxCell id="uxQ34kbCT0QyTVE4A2ME-9" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://engineering.linkedin.com/content/dam/engineering/site-assets/images/blog/posts/2021/12/evolvingtechstack1.png;" vertex="1" parent="1">
           <mxGeometry x="155" y="3010" width="520" height="324" as="geometry" />
+        </mxCell>
+        <mxCell id="8r-DfPxuma1aYIlCWffL-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-clekk.nitrocdn.com/tkvYXMZryjYrSVhxKeFTeXElceKUYHeV/assets/static/optimized/rev-5ea28ac/wp-content/uploads/2021/04/Web_Application_Architecture_Diagram__diagram_.png;" vertex="1" parent="1">
+          <mxGeometry x="155" y="3370" width="520" height="289" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
