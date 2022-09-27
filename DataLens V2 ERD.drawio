@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-09-23T19:30:07.925Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dPi-FZjI45ow44So4cbI" version="20.3.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-27T16:09:45.295Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="pek5vahJZcY5Ijd1t813" version="20.3.7" type="github" pages="2">
   <diagram name="Expanded with no Junction Tables" id="8U2ju1AjeIGWJlGFXqfS">
-    <mxGraphModel dx="1615" dy="1034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1192" dy="988" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="6WNyit8LNiHGm0m6bphD-0" />
         <mxCell id="6WNyit8LNiHGm0m6bphD-1" parent="6WNyit8LNiHGm0m6bphD-0" />
         <mxCell id="6WNyit8LNiHGm0m6bphD-2" value="DataRequest" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="6WNyit8LNiHGm0m6bphD-1" vertex="1">
           <mxGeometry x="60" y="290" width="275" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="6WNyit8LNiHGm0m6bphD-3" value="+DataRequest_ID&#xa;+Name&#xa;+Status&#xa;+Protocol_ID&#xa;+Project_ID&#xa;+GitLabIssue_ID" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6WNyit8LNiHGm0m6bphD-2" vertex="1">
+        <mxCell id="6WNyit8LNiHGm0m6bphD-3" value="+DataRequest_ID&#xa;+Name&#xa;+Status&#xa;+Protocol_ID&#xa;+Project_ID&#xa;+GitLabIssue_ID&#xa;+ MUCH MUCH MORE!!" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6WNyit8LNiHGm0m6bphD-2" vertex="1">
           <mxGeometry y="30" width="275" height="220" as="geometry" />
         </mxCell>
         <mxCell id="6WNyit8LNiHGm0m6bphD-4" value="Protocol" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="6WNyit8LNiHGm0m6bphD-1" vertex="1">
@@ -210,7 +210,7 @@
         <mxCell id="6WNyit8LNiHGm0m6bphD-67" value="+ClinicalDataSet_ID&#xa;+DataRequest_ID&#xa;+FilePath&#xa;+etc" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="6WNyit8LNiHGm0m6bphD-66" vertex="1">
           <mxGeometry y="30" width="200" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="6WNyit8LNiHGm0m6bphD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;endSize=10;startSize=10;exitX=0.576;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" parent="6WNyit8LNiHGm0m6bphD-1" source="6WNyit8LNiHGm0m6bphD-3" target="6WNyit8LNiHGm0m6bphD-66" edge="1">
+        <mxCell id="6WNyit8LNiHGm0m6bphD-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToOne;startFill=0;endArrow=ERzeroToMany;endFill=0;endSize=10;startSize=10;exitX=0.576;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" parent="6WNyit8LNiHGm0m6bphD-1" source="6WNyit8LNiHGm0m6bphD-3" target="6WNyit8LNiHGm0m6bphD-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6WNyit8LNiHGm0m6bphD-69" value="Note" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" parent="6WNyit8LNiHGm0m6bphD-1" vertex="1">
@@ -313,6 +313,23 @@
         </mxCell>
         <mxCell id="sgAKTOr5KQW5sn3Kh9as-1" value="&lt;ul&gt;&lt;li&gt;Many-to-Many relationships have an implied JOIN table between the entities.&lt;/li&gt;&lt;li&gt;Color Coding represents general entity collections for functional purposes.&lt;/li&gt;&lt;li&gt;Lookup and other tables are omitted for brevity&lt;/li&gt;&lt;li&gt;THIS IS A DRAFT and SUBJECT to change.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;" parent="6WNyit8LNiHGm0m6bphD-1" vertex="1">
           <mxGeometry x="1020" y="40" width="530" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="YNVSqj-bpbSQ12SEADaX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=ERzeroToOne;startFill=0;entryX=0.385;entryY=1.005;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=ERoneToMany;endFill=0;" edge="1" parent="6WNyit8LNiHGm0m6bphD-1" source="YNVSqj-bpbSQ12SEADaX-0" target="6WNyit8LNiHGm0m6bphD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YNVSqj-bpbSQ12SEADaX-0" value="Document" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="6WNyit8LNiHGm0m6bphD-1">
+          <mxGeometry x="90" y="860" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="YNVSqj-bpbSQ12SEADaX-1" value="+Document_ID&#xa;+DataRequest_ID&#xa;+DocumentName&#xa;+FileName&#xa;+ContentType&#xa;+" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="YNVSqj-bpbSQ12SEADaX-0">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="YNVSqj-bpbSQ12SEADaX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERzeroToOne;startFill=0;endArrow=ERoneToMany;endFill=0;endSize=10;startSize=10;" edge="1" parent="6WNyit8LNiHGm0m6bphD-1" source="6WNyit8LNiHGm0m6bphD-11" target="6WNyit8LNiHGm0m6bphD-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="1068" />
+              <mxPoint x="560" y="1625" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
