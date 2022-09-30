@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-28T20:51:21.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eAqbcVB4gc36WxTs-CEC" version="20.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-30T15:41:52.191Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0fiKMOTqPjtTowaFXYix" version="20.3.7" type="github">
   <diagram name="Simplified" id="1aNk9hnZOlQ7_WjEDchH">
-    <mxGraphModel dx="1517" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1454" dy="1041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="ScCZQf0IAp3NMGlHaYm5-0" />
         <mxCell id="ScCZQf0IAp3NMGlHaYm5-1" parent="ScCZQf0IAp3NMGlHaYm5-0" />
@@ -253,6 +253,9 @@
         </mxCell>
         <mxCell id="hKgSFhePXm8vNnnpxbVq-2" value="Roles and Actions will control module-level permissions (as compared to record-level permissions) for a role in the application.&lt;br&gt;&lt;br&gt;Examples:&amp;nbsp;&lt;br&gt;- Requester can Access Data Requests module.&lt;br&gt;- Requester can create a new Data Request.&lt;br&gt;- Admin can manage User Accounts." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="ScCZQf0IAp3NMGlHaYm5-1" vertex="1">
           <mxGeometry x="1230" y="1150" width="160" height="235" as="geometry" />
+        </mxCell>
+        <mxCell id="G7ppJfeImuzxRYfkMiGm-0" value="&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;&quot;&gt;Person to Data Request Relationship Types&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;- Person is OWNER of DataRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is CREATOR of DataRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is PRINCIPAL REQUESTER of DataRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is REQUEST MANAGER of DataRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is RESEARCH ASSISTANT of DataRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is DATA ANALYST of DataRequest&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is BIOSTATISTICIAN of DataRequest&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;Person to Project Relationship Types&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is OWNER of Project&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is CREATOR of Project&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is PRINCIPAL INVESTIGATOR of Project&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is CO-INVESTIGATOR of Project&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is RESEARCH ASSISTANT of Project&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is PROJECT MANAGER of Project&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is DATA ANALYST of Project&lt;/div&gt;&lt;div style=&quot;&quot;&gt;- Person is BIOSTATISTICIAN of Project&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="ScCZQf0IAp3NMGlHaYm5-1">
+          <mxGeometry x="1080" y="1570" width="290" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
