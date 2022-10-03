@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T13:09:31.774Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3czBxunGg9WeYBEBXKnx" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-03T14:07:47.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1Cbu7l0-Rz_Y56xYmEw5" version="20.3.7" type="github" pages="2">
   <diagram name="Simplified" id="1aNk9hnZOlQ7_WjEDchH">
     <mxGraphModel dx="1532" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -261,7 +261,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="Unified Person" id="qztb8kpNZp3xLkgxMMOT">
-    <mxGraphModel dx="2189" dy="1531" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1845" dy="820" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="9jwT6VfsY7PpqhXGR-KM-0" />
         <mxCell id="9jwT6VfsY7PpqhXGR-KM-1" parent="9jwT6VfsY7PpqhXGR-KM-0" />
@@ -459,7 +459,7 @@
         <mxCell id="9jwT6VfsY7PpqhXGR-KM-45" value="Roles" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="9jwT6VfsY7PpqhXGR-KM-1">
           <mxGeometry x="1408.75" y="1030" width="240" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="9jwT6VfsY7PpqhXGR-KM-46" value="+Role_D&#xa;+Name&#xa;+Description&#xa;+" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9jwT6VfsY7PpqhXGR-KM-45">
+        <mxCell id="9jwT6VfsY7PpqhXGR-KM-46" value="+Role_D&#xa;+Name&#xa;+Description&#xa;+IsCustomRole&#xa;+IsEntityLevelRole&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9jwT6VfsY7PpqhXGR-KM-45">
           <mxGeometry y="30" width="240" height="180" as="geometry" />
         </mxCell>
         <mxCell id="9jwT6VfsY7PpqhXGR-KM-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERoneToMany;endFill=0;endSize=10;startSize=10;strokeColor=#FF0000;strokeWidth=2;" edge="1" parent="9jwT6VfsY7PpqhXGR-KM-1" target="9jwT6VfsY7PpqhXGR-KM-45">
@@ -552,7 +552,7 @@
         <mxCell id="RqUztPoUdPdi1Sx-PnGn-18" value="DataRequest_Assignment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="9jwT6VfsY7PpqhXGR-KM-1">
           <mxGeometry x="410" y="620" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="RqUztPoUdPdi1Sx-PnGn-19" value="+Cohort_ID&#xa;+Person_ID&#xa;+Role_ID&#xa;+other info about a specific&#xa;  Person assigned to a &#xa;  specific Cohort" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="RqUztPoUdPdi1Sx-PnGn-18">
+        <mxCell id="RqUztPoUdPdi1Sx-PnGn-19" value="+DataRequest_ID&#xa;+Person_ID&#xa;+Role_ID&#xa;+other info about a specific&#xa;  Person assigned to a &#xa;  specific Data Request" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="RqUztPoUdPdi1Sx-PnGn-18">
           <mxGeometry y="30" width="200" height="170" as="geometry" />
         </mxCell>
         <mxCell id="RqUztPoUdPdi1Sx-PnGn-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=2;fontColor=#FFFFFF;startArrow=ERzeroToMany;startFill=0;endArrow=ERmandOne;endFill=0;startSize=10;endSize=10;" edge="1" parent="9jwT6VfsY7PpqhXGR-KM-1" source="RqUztPoUdPdi1Sx-PnGn-19" target="9jwT6VfsY7PpqhXGR-KM-10">
