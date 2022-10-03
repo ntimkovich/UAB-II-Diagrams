@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-03T14:07:47.612Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1Cbu7l0-Rz_Y56xYmEw5" version="20.3.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-03T14:25:51.664Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Gu9LoM5glQBOUIRrPlf-" version="20.3.7" type="github" pages="2">
   <diagram name="Simplified" id="1aNk9hnZOlQ7_WjEDchH">
     <mxGraphModel dx="1532" dy="1072" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -476,7 +476,7 @@
         <mxCell id="9jwT6VfsY7PpqhXGR-KM-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=ERzeroToMany;startFill=0;endArrow=ERzeroToMany;endFill=0;endSize=10;startSize=10;" edge="1" parent="9jwT6VfsY7PpqhXGR-KM-1" source="9jwT6VfsY7PpqhXGR-KM-46" target="9jwT6VfsY7PpqhXGR-KM-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9jwT6VfsY7PpqhXGR-KM-51" value="&lt;h1&gt;DataLens V2 Entity-Relationship Diagram DRAFT&lt;/h1&gt;&lt;p&gt;Authors: Nick Timkovich, Brian Harmon, Matt Wyatt, Abakash Samal, Brandon Sharp, Adarsh Khare, Heena Chitkara&lt;br&gt;Last Updated: September 28, 2022 (Team ERD Review Meeting)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="9jwT6VfsY7PpqhXGR-KM-1">
+        <mxCell id="9jwT6VfsY7PpqhXGR-KM-51" value="&lt;h1&gt;DataLens V2 Entity-Relationship Diagram DRAFT&lt;/h1&gt;&lt;p&gt;Authors: Nick Timkovich, Brian Harmon, Matt Wyatt, Abakash Samal, Brandon Sharp, Adarsh Khare, Heena Chitkara&lt;br&gt;Last Updated: October 3, 2022 (Nick addition of _Assignment tables)&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=16;" vertex="1" parent="9jwT6VfsY7PpqhXGR-KM-1">
           <mxGeometry x="73.75" y="30" width="876.25" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9jwT6VfsY7PpqhXGR-KM-52" value="&lt;ul&gt;&lt;li&gt;If not shown, Many-to-Many relationships have an implied JOIN table between the entities.&lt;/li&gt;&lt;li&gt;Color Coding represents general entity collections for functional purposes.&lt;/li&gt;&lt;li&gt;Lookup and other tables are omitted for brevity&lt;/li&gt;&lt;li&gt;THIS IS A DRAFT and SUBJECT to change.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="9jwT6VfsY7PpqhXGR-KM-1">
