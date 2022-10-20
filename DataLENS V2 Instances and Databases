@@ -1,1 +1,62 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T21:06:46.051Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.4.0" etag="03rz32ZF9gllcV5ALesR" type="github"><diagram id="eIRBOAjOxaYk-K4OtIj2">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-20T21:15:13.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="6pziG3ciHnZAw9OXR4tr" version="20.4.0" type="github">
+  <diagram id="eIRBOAjOxaYk-K4OtIj2" name="Page-1">
+    <mxGraphModel dx="1364" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-1" value="PRODUCTION&lt;br&gt;&lt;br&gt;CRIF2 on in4mp" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="110" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-2" value="PRODUCTION_COPY&lt;br&gt;&lt;br&gt;CRIF2 on in4md" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="110" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-3" value="QUALITY ASSURANCE&lt;br&gt;&lt;br&gt;CRIF2_QA on in4md" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="320" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-4" value="TEST&lt;br&gt;&lt;br&gt;CRIF2_TEST on ???" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-5" value="DEV&lt;br&gt;&lt;br&gt;CRIF2_DEV on ???" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="190" y="720" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-6" value="TRAINING&lt;br&gt;&lt;br&gt;CRIF2_TRAIN on ???" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="560" y="320" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endSize=14;targetPerimeterSpacing=0;startSize=6;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="820" as="sourcePoint" />
+            <mxPoint x="100" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-8" value="FLOW of APP CHANGES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;fontSize=20;" vertex="1" connectable="0" parent="KVXUpMIM7wq27BSXzTR3-7">
+          <mxGeometry x="-0.2071" y="1" relative="1" as="geometry">
+            <mxPoint x="-19" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-9" value="" style="shape=flexArrow;endArrow=none;html=1;rounded=0;startArrow=block;startFill=0;endFill=0;endSize=6;startSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="820" as="sourcePoint" />
+            <mxPoint x="160" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-10" value="FLOW of DATA REFRESH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;fontSize=20;" vertex="1" connectable="0" parent="KVXUpMIM7wq27BSXzTR3-9">
+          <mxGeometry x="-0.2071" y="1" relative="1" as="geometry">
+            <mxPoint x="-19" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontSize=20;startSize=16;endSize=6;targetPerimeterSpacing=0;fillColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="170" as="sourcePoint" />
+            <mxPoint x="530" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-12" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontSize=20;startSize=16;endSize=6;targetPerimeterSpacing=0;fillColor=default;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="210" as="sourcePoint" />
+            <mxPoint x="520" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
