@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T12:59:42.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-MJaD46M0iPXzOiE1w9A" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-21T13:07:20.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PPh-nj3n1shb3C1d5qxS" version="20.4.0" type="github">
   <diagram id="eIRBOAjOxaYk-K4OtIj2" name="Page-1">
-    <mxGraphModel dx="1364" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1364" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="KVXUpMIM7wq27BSXzTR3-1" value="PRODUCTION&lt;br&gt;&lt;br&gt;CRIF2 on in4mp" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="190" y="110" width="160" height="110" as="geometry" />
+          <mxGeometry x="193" y="380" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-2" value="PRODUCTION_COPY&lt;br&gt;&lt;br&gt;CRIF2 on in4md" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="560" y="110" width="160" height="110" as="geometry" />
+          <mxGeometry x="563" y="380" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-3" value="QUALITY ASSURANCE&lt;br&gt;&lt;br&gt;CRIF2_QA on in4md" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="190" y="320" width="160" height="110" as="geometry" />
+          <mxGeometry x="193" y="590" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-4" value="TEST&lt;br&gt;&lt;br&gt;CRIF2_TEST on ???" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="190" y="530" width="160" height="110" as="geometry" />
+          <mxGeometry x="193" y="800" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-5" value="DEVELOPMENT&lt;br&gt;&lt;br&gt;CRIF2_DEV on ???" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="190" y="720" width="160" height="110" as="geometry" />
+          <mxGeometry x="193" y="990" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-6" value="TRAINING&lt;br&gt;&lt;br&gt;CRIF2_TRAIN on ???" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="190" y="-100" width="160" height="110" as="geometry" />
+          <mxGeometry x="193" y="170" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;endSize=14;targetPerimeterSpacing=0;startSize=6;shadow=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="820" as="sourcePoint" />
-            <mxPoint x="100" y="-100" as="targetPoint" />
+            <mxPoint x="103" y="1090" as="sourcePoint" />
+            <mxPoint x="103" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-8" value="FLOW of APP CHANGES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;fontSize=20;" vertex="1" connectable="0" parent="KVXUpMIM7wq27BSXzTR3-7">
@@ -35,8 +35,8 @@
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-9" value="" style="shape=flexArrow;endArrow=none;html=1;rounded=0;startArrow=block;startFill=0;endFill=0;endSize=6;startSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="160" y="820" as="sourcePoint" />
-            <mxPoint x="160" y="120" as="targetPoint" />
+            <mxPoint x="163" y="1090" as="sourcePoint" />
+            <mxPoint x="163" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-10" value="FLOW of DATA REFRESH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-90;fontSize=20;" vertex="1" connectable="0" parent="KVXUpMIM7wq27BSXzTR3-9">
@@ -46,36 +46,54 @@
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontSize=20;startSize=16;endSize=6;targetPerimeterSpacing=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="140" as="sourcePoint" />
-            <mxPoint x="530" y="140" as="targetPoint" />
+            <mxPoint x="393" y="434.5" as="sourcePoint" />
+            <mxPoint x="533" y="434.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KVXUpMIM7wq27BSXzTR3-13" value="Training Instance is a copy of Production except for the data.&amp;nbsp; Training is updated after Production to ensure duplicate functionality. Data is never copied to Training." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="380" y="-100" width="250" height="110" as="geometry" />
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-13" value="Training Instance is a copy of Production except for the data.&amp;nbsp; Training is updated after Production to ensure duplicate functionality. Data is never copied to Training. Used for training new users and demoing the DataLENS app." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="383" y="170" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-14" value="QA Instance is a copy of Production in every way possible.&amp;nbsp; QA serves as deployment testing, patch testing, etc.&amp;nbsp; Anything that is about to change in Prod is changed in QA first to make sure the &lt;i&gt;deployment&lt;/i&gt; doesn&#39;t break the system." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="380" y="320" width="250" height="110" as="geometry" />
+          <mxGeometry x="383" y="590" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-15" value="Test Instance is used for functional testing for app changes by non-developers.&amp;nbsp; It is a copy of Production (data and app) except when changes are being tested.&amp;nbsp; Once a change is tested and approved on TEST, and any other requirements are met, it is ready for deployment to QA." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="380" y="530" width="250" height="110" as="geometry" />
+          <mxGeometry x="383" y="800" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-16" value="Dev Instance is used solely by the CRI Application Development team as a communal playground for changes.&amp;nbsp; It is a copy of Production except when changes are being worked on or tested. Primarily used for developer testing and common workspace for the team." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="380" y="720" width="250" height="110" as="geometry" />
+          <mxGeometry x="383" y="990" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-17" value="LOCAL&lt;br&gt;&lt;br&gt;Schemas on Oracle XE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="190" y="920" width="160" height="110" as="geometry" />
+          <mxGeometry x="193" y="1200" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-18" value="Local Instance is on each developer&#39;s workstation, and is the isolated playground for each developer.&amp;nbsp; Local Instances will be a copy of Production except for the data.&amp;nbsp; Local Instances can be provisioned or decommissioned as needed by developer.&amp;nbsp; Changes here are pushed forward only via migration scripts checked in to Source Control." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="380" y="920" width="250" height="150" as="geometry" />
+          <mxGeometry x="383" y="1200" width="250" height="150" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-20" value="" style="endArrow=none;html=1;rounded=0;shadow=0;fontSize=12;startSize=16;endSize=6;targetPerimeterSpacing=0;fillColor=default;strokeWidth=5;strokeColor=#CCCCCC;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="880" as="sourcePoint" />
-            <mxPoint x="760" y="880" as="targetPoint" />
+            <mxPoint x="85" y="1170" as="sourcePoint" />
+            <mxPoint x="765" y="1170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-21" value="Production Copy is for refreshing other instances, or for DBA staging area.&amp;nbsp; Possible to use it for other tests where data is needed but no app testing is required." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="515" y="220" width="250" height="110" as="geometry" />
+          <mxGeometry x="518" y="490" width="250" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-22" value="Training App" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="323" y="280" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-23" value="Production App" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="323" y="490" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-24" value="QA App" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="323" y="700" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-25" value="Test App" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="323" y="910" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-26" value="Dev App" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="323" y="1100" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-27" value="&lt;h1&gt;DataLENS V2 Database Instances and App Change/Data Flow&lt;/h1&gt;&lt;p&gt;Describing the various DB instances for DataLENS V2, their use and purpose.&amp;nbsp; Includes logical flow of application changes for DevOps and details about data copy from Prod down to other instances.&lt;/p&gt;&lt;p&gt;Authors: Brian Harmon, Nick Timkovich.&lt;br&gt;Last Updated: Oct 21, 2022&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="760" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
