@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-21T12:48:39.986Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cbIuucjvcqeLXwGkFfcz" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-21T12:59:42.303Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-MJaD46M0iPXzOiE1w9A" version="20.4.0" type="github">
   <diagram id="eIRBOAjOxaYk-K4OtIj2" name="Page-1">
     <mxGraphModel dx="1364" dy="2038" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -44,13 +44,13 @@
             <mxPoint x="-19" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KVXUpMIM7wq27BSXzTR3-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontSize=20;startSize=16;endSize=6;targetPerimeterSpacing=0;fillColor=default;" edge="1" parent="1">
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;shadow=0;fontSize=20;startSize=16;endSize=6;targetPerimeterSpacing=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="170" as="sourcePoint" />
-            <mxPoint x="530" y="170" as="targetPoint" />
+            <mxPoint x="390" y="140" as="sourcePoint" />
+            <mxPoint x="530" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KVXUpMIM7wq27BSXzTR3-13" value="Training Instance is a copy of Production except for the data.&amp;nbsp; Training is updated after Production to ensure duplicate functionality." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-13" value="Training Instance is a copy of Production except for the data.&amp;nbsp; Training is updated after Production to ensure duplicate functionality. Data is never copied to Training." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="380" y="-100" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-14" value="QA Instance is a copy of Production in every way possible.&amp;nbsp; QA serves as deployment testing, patch testing, etc.&amp;nbsp; Anything that is about to change in Prod is changed in QA first to make sure the &lt;i&gt;deployment&lt;/i&gt; doesn&#39;t break the system." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
@@ -59,7 +59,7 @@
         <mxCell id="KVXUpMIM7wq27BSXzTR3-15" value="Test Instance is used for functional testing for app changes by non-developers.&amp;nbsp; It is a copy of Production (data and app) except when changes are being tested.&amp;nbsp; Once a change is tested and approved on TEST, and any other requirements are met, it is ready for deployment to QA." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="380" y="530" width="250" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="KVXUpMIM7wq27BSXzTR3-16" value="Dev Instance is used solely by the CRI Application Development team as a communal playground for changes.&amp;nbsp; It is a copy of Production except when changes are being tested." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-16" value="Dev Instance is used solely by the CRI Application Development team as a communal playground for changes.&amp;nbsp; It is a copy of Production except when changes are being worked on or tested. Primarily used for developer testing and common workspace for the team." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="380" y="720" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="KVXUpMIM7wq27BSXzTR3-17" value="LOCAL&lt;br&gt;&lt;br&gt;Schemas on Oracle XE" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
@@ -73,6 +73,9 @@
             <mxPoint x="80" y="880" as="sourcePoint" />
             <mxPoint x="760" y="880" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KVXUpMIM7wq27BSXzTR3-21" value="Production Copy is for refreshing other instances, or for DBA staging area.&amp;nbsp; Possible to use it for other tests where data is needed but no app testing is required." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="515" y="220" width="250" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
