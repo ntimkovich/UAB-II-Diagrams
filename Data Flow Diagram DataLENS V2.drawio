@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-25T14:50:13.717Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="f2vK-OwMh6E_Y_A6myEU" version="20.4.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-25T20:53:22.482Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3wX-0BNVVCfxWrx529dQ" version="20.4.1" type="github" pages="2">
   <diagram id="qEYMxdByzvlCK4KdYftx" name="Combined Draft">
     <mxGraphModel dx="1351" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -160,7 +160,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="V1 Current" id="cRnhCUgYhAqbBjJSPU9Z">
-    <mxGraphModel dx="1351" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1351" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="BImoE2NjRJO7wVhi5qdw-0" />
         <mxCell id="BImoE2NjRJO7wVhi5qdw-1" parent="BImoE2NjRJO7wVhi5qdw-0" />
@@ -174,6 +174,9 @@
           <mxGeometry x="-0.2138" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="hstP-j2X-ru1m0qeCLgD-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=15;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#FF0000;startArrow=classic;startFill=1;" edge="1" parent="BImoE2NjRJO7wVhi5qdw-1" source="BImoE2NjRJO7wVhi5qdw-9" target="hstP-j2X-ru1m0qeCLgD-0">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BImoE2NjRJO7wVhi5qdw-9" value="DataLENS&lt;br&gt;(CRIF, CRIF_PHI)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="BImoE2NjRJO7wVhi5qdw-1">
           <mxGeometry x="425" y="430" width="140" height="120" as="geometry" />
@@ -242,13 +245,19 @@
           <mxGeometry x="175" y="10" width="555" height="120" as="geometry" />
         </mxCell>
         <mxCell id="BImoE2NjRJO7wVhi5qdw-51" value="hssmtp.hs.uab.edu:25" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="BImoE2NjRJO7wVhi5qdw-1">
-          <mxGeometry x="650" y="230" width="140" height="80" as="geometry" />
+          <mxGeometry x="565" y="190" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BImoE2NjRJO7wVhi5qdw-25" value="AD Xref" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="BImoE2NjRJO7wVhi5qdw-1">
           <mxGeometry x="590" y="665" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BImoE2NjRJO7wVhi5qdw-26" value="MIM_All_Accounts_with_BlazerID&lt;br&gt;&lt;br&gt;HSIS-provided list of user accounts with emails&lt;br&gt;&lt;br&gt;Currently used only for confirmation of user info, not pulled in to CRIF&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="BImoE2NjRJO7wVhi5qdw-1">
           <mxGeometry x="550" y="750" width="280" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hstP-j2X-ru1m0qeCLgD-0" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.computer;fontColor=#FF0000;" vertex="1" parent="BImoE2NjRJO7wVhi5qdw-1">
+          <mxGeometry x="730" y="295" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="hstP-j2X-ru1m0qeCLgD-1" value="End User Browser" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="BImoE2NjRJO7wVhi5qdw-1">
+          <mxGeometry x="700" y="350" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
