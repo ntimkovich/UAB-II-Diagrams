@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T15:21:21.714Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yX9imPJ4IRkoOPaUuSde" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-31T15:31:47.110Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XrJ7kf4zyVA16crbkR1Z" version="20.5.1" type="github" pages="2">
   <diagram id="OJz4E1NRxtN7s5ljRPHN" name="Page-1">
     <mxGraphModel dx="964" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
         <mxCell id="Q0df7IfdMo-g2zNULpji-0" />
         <mxCell id="Q0df7IfdMo-g2zNULpji-1" parent="Q0df7IfdMo-g2zNULpji-0" />
         <mxCell id="fUj6VVraK2hkdUocLC9V-0" value="Main CRI Data Stores for DataLENS" style="swimlane;horizontal=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Q0df7IfdMo-g2zNULpji-1">
-          <mxGeometry x="60" y="80" width="1025" height="220" as="geometry" />
+          <mxGeometry x="45" y="80" width="1025" height="220" as="geometry" />
         </mxCell>
         <mxCell id="Q0df7IfdMo-g2zNULpji-2" value="CRIF2" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="fUj6VVraK2hkdUocLC9V-0">
           <mxGeometry x="60" y="60" width="190" height="100" as="geometry" />
@@ -178,6 +178,12 @@
         </mxCell>
         <mxCell id="fUj6VVraK2hkdUocLC9V-14" value="IRAP" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="Q0df7IfdMo-g2zNULpji-1">
           <mxGeometry x="1020" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fUj6VVraK2hkdUocLC9V-18" value="&lt;ul&gt;&lt;li&gt;Core Tables for CRIF&lt;/li&gt;&lt;li&gt;PL/SQL Packages for interacting with all CRIF tables&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q0df7IfdMo-g2zNULpji-1">
+          <mxGeometry x="1150" y="80" width="360" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fUj6VVraK2hkdUocLC9V-19" value="&lt;ul&gt;&lt;li&gt;Tables in these schemas are only for operational purposes (such as the staging tables -- they are needed for the ETL Processes, but &quot;permanent&quot; data is not persisted here)&lt;/li&gt;&lt;li&gt;Synonyms or Views for access the Core CRIF schemas&lt;/li&gt;&lt;li&gt;Primarily used for access control and implementation of least privilege for each end point to get/post/put data for CRIF2.&lt;/li&gt;&lt;li&gt;Multiple Web Service Apps could utilize the same user/schema if appropriate.&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="Q0df7IfdMo-g2zNULpji-1">
+          <mxGeometry x="1150" y="390" width="360" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
