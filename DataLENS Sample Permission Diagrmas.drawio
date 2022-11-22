@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T16:19:59.490Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="34BOwB6bpFHREZze9mlV" version="20.5.3" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-22T17:02:24.112Z" agent="5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ly2zAAgW8VPRZar5TrI3" version="20.5.3" type="github" pages="3">
   <diagram id="Q2oTnS6dzI95HrH7bnxC" name="Page-1">
-    <mxGraphModel dx="2466" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Crha1jPuFxpL6LNXwjeX" name="Page-2">
-    <mxGraphModel dx="2466" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2197" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -235,7 +235,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="c1Oo7lv5Df6xl_atcSem" name="Page-3">
-    <mxGraphModel dx="3159" dy="2436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3796" dy="2666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -553,6 +553,30 @@
         </mxCell>
         <mxCell id="AigEBq2PumBx65JGP1BX-58" value="Data Request" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;fontSize=15;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="385" y="870" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OnV2XX0quK1684-1jXHy-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.025;entryY=0.413;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#82b366;strokeWidth=2;fontSize=17;fontColor=#3333FF;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#d5e8d4;" edge="1" parent="1" source="OnV2XX0quK1684-1jXHy-1" target="yiyqVSNzlQx9SLA-mLN9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OnV2XX0quK1684-1jXHy-1" value="Clinical Dataset" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;strokeWidth=1;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="170" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OnV2XX0quK1684-1jXHy-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.396;entryY=0.99;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#82b366;strokeWidth=2;fontSize=17;fontColor=#3333FF;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#d5e8d4;" edge="1" parent="1" source="OnV2XX0quK1684-1jXHy-3" target="OnV2XX0quK1684-1jXHy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OnV2XX0quK1684-1jXHy-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#82b366;strokeWidth=2;fontSize=17;fontColor=#3333FF;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#d5e8d4;" edge="1" parent="1" source="OnV2XX0quK1684-1jXHy-3" target="OnV2XX0quK1684-1jXHy-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OnV2XX0quK1684-1jXHy-3" value="Data Request" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;strokeWidth=3;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="830" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OnV2XX0quK1684-1jXHy-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;strokeColor=#6c8ebf;strokeWidth=2;fontSize=17;fontColor=#3333FF;startArrow=none;startFill=0;endArrow=none;endFill=0;fillColor=#dae8fc;" edge="1" parent="1" source="OnV2XX0quK1684-1jXHy-4" target="yiyqVSNzlQx9SLA-mLN9-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OnV2XX0quK1684-1jXHy-4" value="Cohort" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;strokeWidth=3;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="865" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OnV2XX0quK1684-1jXHy-5" value="Protocol" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;strokeWidth=3;fontSize=17;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="640" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
