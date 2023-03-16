@@ -1,1 +1,67 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T18:11:40.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.2" etag="C50DBoL5EJUH_lGBkMGX" type="github"><diagram name="Page-1" id="_FmvnzsuNXm92mAFTKip">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-16T18:25:46.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="X-n90VYlWqLPZgAFAeWH" version="21.0.2" type="github">
+  <diagram name="Page-1" id="_FmvnzsuNXm92mAFTKip">
+    <mxGraphModel dx="1252" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="120" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kW9U1iwaF36x_0L1Tg8--2" target="kW9U1iwaF36x_0L1Tg8--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--2" value="Check for valid &lt;br&gt;JWT Token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kW9U1iwaF36x_0L1Tg8--3" target="kW9U1iwaF36x_0L1Tg8--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--3" value="Get User&#39;s &lt;br&gt;SYSTEM Role" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kW9U1iwaF36x_0L1Tg8--4" target="kW9U1iwaF36x_0L1Tg8--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--4" value="Check Role has permission to Action" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kW9U1iwaF36x_0L1Tg8--5" target="kW9U1iwaF36x_0L1Tg8--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--5" value="Check User has permission to entity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--6" value="Process Action &lt;br&gt;&amp;amp; Log Activity" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--7" value="Service-level check that Request has a valid JWT attached.&amp;nbsp; If not, then reject immediately.&amp;nbsp; Else continue." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--8" value="Retrieve the user&#39;s SYSTEM role" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="230" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--9" value="Check to ensure that the role has permissions to the requested action.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;EXAMPLE: user with &quot;Standard User&quot; role is requesting &quot;Get My Projects&quot;, which is allowed." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--11" value="Check that the user has ENTITY permissions to the object being acted upon.&lt;br&gt;EXAMPLE: Matt has &quot;OWNER&quot; permissions on Project X." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="430" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--12" value="If all checks are passed, then log the details of the action and process it." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="550" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--13" value="&lt;h1&gt;DataLENS V2 API Process Diagram&lt;/h1&gt;&lt;p&gt;Describing the steps to check SYSTEM and ENTITY roles to ensure that a requested action can be processed.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="10" width="580" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--16" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="160" as="sourcePoint" />
+            <mxPoint x="270" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kW9U1iwaF36x_0L1Tg8--18" value="User requests an action on an API endpoint, usually via the React UI.&lt;br&gt;EXAMPLE: &quot;Get a list of all my projects&quot;." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="210" width="170" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
