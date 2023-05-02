@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T19:12:43.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jSegSMPjWZHe8jonENvQ" version="21.0.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-05-02T19:20:47.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="bsgilV58TNGx7ahBCgOv" version="21.0.6" type="github" pages="3">
   <diagram name="Person Role Permission" id="u75_fXZrPRD8PWQ-MWaT">
     <mxGraphModel dx="852" dy="689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -945,31 +945,6 @@
         </mxCell>
         <mxCell id="-09lumX7fPDfFYuZ1dPq-73" value="The Green relationship lines indicate connections between the major functional entities: DataRequest, Cohort, Protocol, Project, and Asset.&amp;nbsp; Implied JOIN tables may or may not have additional columns.&lt;br&gt;&lt;br&gt;The lines are green to enhance readability of this diagram." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontColor=#00CC00;fontStyle=1" vertex="1" parent="-09lumX7fPDfFYuZ1dPq-1">
           <mxGeometry x="1170" y="470" width="320" height="130" as="geometry" />
-        </mxCell>
-        <mxCell id="-09lumX7fPDfFYuZ1dPq-74" value="EDWD_DataRequest_Assignment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="-09lumX7fPDfFYuZ1dPq-1">
-          <mxGeometry x="100" y="1330" width="220" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="-09lumX7fPDfFYuZ1dPq-75" value="+DataRequest_ID&#xa;+Person_ID&#xa;+other info about a specific&#xa;  EDW Developer assigned to a &#xa;  specific Data Request" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="-09lumX7fPDfFYuZ1dPq-74">
-          <mxGeometry y="30" width="220" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="-09lumX7fPDfFYuZ1dPq-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=2;startArrow=ERzeroToMany;startFill=0;endArrow=ERmandOne;endFill=0;endSize=10;startSize=10;" edge="1" parent="-09lumX7fPDfFYuZ1dPq-1" source="-09lumX7fPDfFYuZ1dPq-75" target="-09lumX7fPDfFYuZ1dPq-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="640" y="1260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="360" y="1403" />
-              <mxPoint x="360" y="1310" />
-              <mxPoint x="659" y="1310" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="-09lumX7fPDfFYuZ1dPq-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#3333FF;strokeWidth=2;startArrow=ERmandOne;startFill=0;endArrow=ERzeroToMany;endFill=0;startSize=10;endSize=10;" edge="1" parent="-09lumX7fPDfFYuZ1dPq-1" source="-09lumX7fPDfFYuZ1dPq-3" target="-09lumX7fPDfFYuZ1dPq-75">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="129" y="600" />
-              <mxPoint x="60" y="600" />
-              <mxPoint x="60" y="1403" />
-            </Array>
-          </mxGeometry>
         </mxCell>
         <mxCell id="-_piZmcqMC6uldmIi6DQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#3333FF;endArrow=ERmandOne;endFill=0;strokeWidth=2;endSize=10;startSize=10;startArrow=ERzeroToMany;startFill=0;" edge="1" parent="-09lumX7fPDfFYuZ1dPq-1" source="-_piZmcqMC6uldmIi6DQ-0" target="-09lumX7fPDfFYuZ1dPq-43">
           <mxGeometry relative="1" as="geometry">
