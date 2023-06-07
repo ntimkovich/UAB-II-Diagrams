@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-06-06T18:56:34.647Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Wn4unyr3cEBb9QzfQzvD" version="21.3.2" type="github" pages="2">
-  <diagram name="Top-level Conditions" id="PCFXS-JAIQ8bynVuSYlD">
+<mxfile host="app.diagrams.net" modified="2023-06-07T12:27:36.826Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s-oQ1-IxSiQFJw3rKHk4" version="21.3.2" type="github" pages="2">
+  <diagram name="Condition Groups" id="PCFXS-JAIQ8bynVuSYlD">
     <mxGraphModel dx="1111" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -66,13 +66,13 @@
         <mxCell id="1Pc8_G8tOVIv_xKx2Yv7-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="1Pc8_G8tOVIv_xKx2Yv7-38" target="1Pc8_G8tOVIv_xKx2Yv7-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="1Pc8_G8tOVIv_xKx2Yv7-50" value="&lt;h1&gt;Patient Conditions for Timeline&lt;/h1&gt;&lt;p&gt;FACT_RELATIONSHIP.DOMAIN_CONCEPT_ID_1 = &#39;person&#39;&lt;br&gt;&lt;/p&gt;&lt;p&gt;FACT_RELATIONSHIP.RELATIONSHIP_CONCEPT_ID = &#39;has_finding_or_condition&#39;&lt;/p&gt;&lt;p&gt;FACT_RELATIONSHIP.DOMAIN_CONCEPT_ID_2 = &#39;episode&#39;&lt;/p&gt;&lt;p&gt;EPISODE.EPISODE_PARENT_ID = NULL&lt;/p&gt;&lt;p&gt;EPISODE_EVENT.EPISODE_EVENT_FIELD_CONCEPT_ID = &#39;condition_occurrence&#39;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="1Pc8_G8tOVIv_xKx2Yv7-50" value="&lt;h1&gt;Patient Conditions for Timeline (&quot;Condition Groups&quot;)&lt;/h1&gt;&lt;p&gt;FACT_RELATIONSHIP.DOMAIN_CONCEPT_ID_1 = &#39;person&#39;&lt;br&gt;&lt;/p&gt;&lt;p&gt;FACT_RELATIONSHIP.RELATIONSHIP_CONCEPT_ID = &#39;has_finding_or_condition&#39;&lt;/p&gt;&lt;p&gt;FACT_RELATIONSHIP.DOMAIN_CONCEPT_ID_2 = &#39;episode&#39;&lt;/p&gt;&lt;p&gt;EPISODE.EPISODE_PARENT_ID = NULL&lt;/p&gt;&lt;p&gt;EPISODE_EVENT.EPISODE_EVENT_FIELD_CONCEPT_ID = &#39;condition_occurrence&#39;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="390" width="660" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="Copy of Page-1" id="gm4SL4NLU5oKiQ4zwjG_">
+  <diagram name="Timeline Items" id="gm4SL4NLU5oKiQ4zwjG_">
     <mxGraphModel dx="1611" dy="835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-0" />
@@ -105,40 +105,31 @@
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-11" value="DRUG_EXPOSURE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-1">
-          <mxGeometry x="900" y="160" width="140" height="120" as="geometry" />
+          <mxGeometry x="900" y="160" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-12" value="ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-11">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pq_qnGHhPT9m3JfkUCgI-13" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-11">
+        <mxCell id="pq_qnGHhPT9m3JfkUCgI-13" value="Data Items" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-11">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pq_qnGHhPT9m3JfkUCgI-14" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-11">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-15" value="NOTE_NLP" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-1">
-          <mxGeometry x="900" y="340" width="140" height="120" as="geometry" />
+          <mxGeometry x="900" y="300" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-16" value="ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-15">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pq_qnGHhPT9m3JfkUCgI-17" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-15">
+        <mxCell id="pq_qnGHhPT9m3JfkUCgI-17" value="Data Items" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-15">
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pq_qnGHhPT9m3JfkUCgI-18" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-15">
-          <mxGeometry y="90" width="140" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-19" value="CONDITION_OCCURRENCE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-1">
-          <mxGeometry x="880" y="500" width="180" height="120" as="geometry" />
+          <mxGeometry x="880" y="425" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-20" value="ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-19">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="pq_qnGHhPT9m3JfkUCgI-21" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-19">
+        <mxCell id="pq_qnGHhPT9m3JfkUCgI-21" value="Data Items" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-19">
           <mxGeometry y="60" width="180" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="pq_qnGHhPT9m3JfkUCgI-22" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-19">
-          <mxGeometry y="90" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pq_qnGHhPT9m3JfkUCgI-1" source="pq_qnGHhPT9m3JfkUCgI-9" target="pq_qnGHhPT9m3JfkUCgI-12">
           <mxGeometry relative="1" as="geometry" />
@@ -147,7 +138,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pq_qnGHhPT9m3JfkUCgI-1" source="pq_qnGHhPT9m3JfkUCgI-9" target="pq_qnGHhPT9m3JfkUCgI-20">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="235" />
+              <mxPoint x="830" y="470" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-26" value="EPISODE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-1">
           <mxGeometry x="430" y="160" width="140" height="90" as="geometry" />
@@ -169,10 +165,51 @@
           <mxGeometry y="60" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pq_qnGHhPT9m3JfkUCgI-1" source="pq_qnGHhPT9m3JfkUCgI-6" target="pq_qnGHhPT9m3JfkUCgI-27">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="285" />
+              <mxPoint x="360" y="205" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="pq_qnGHhPT9m3JfkUCgI-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pq_qnGHhPT9m3JfkUCgI-1" source="pq_qnGHhPT9m3JfkUCgI-27" target="pq_qnGHhPT9m3JfkUCgI-8">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrSugunlHA_ni6WsSIa-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pq_qnGHhPT9m3JfkUCgI-1" source="pq_qnGHhPT9m3JfkUCgI-4" target="pq_qnGHhPT9m3JfkUCgI-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="225" />
+              <mxPoint x="360" y="205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQrSugunlHA_ni6WsSIa-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pq_qnGHhPT9m3JfkUCgI-1" source="pq_qnGHhPT9m3JfkUCgI-4" target="pq_qnGHhPT9m3JfkUCgI-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="225" />
+              <mxPoint x="360" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQrSugunlHA_ni6WsSIa-3" value="MEASUREMENT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-1">
+          <mxGeometry x="650" y="370" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrSugunlHA_ni6WsSIa-4" value="ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wQrSugunlHA_ni6WsSIa-3">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrSugunlHA_ni6WsSIa-5" value="Data Items" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="wQrSugunlHA_ni6WsSIa-3">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQrSugunlHA_ni6WsSIa-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pq_qnGHhPT9m3JfkUCgI-1" source="pq_qnGHhPT9m3JfkUCgI-4" target="wQrSugunlHA_ni6WsSIa-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="225" />
+              <mxPoint x="360" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wQrSugunlHA_ni6WsSIa-8" value="&lt;h1&gt;Interventions, Measurements, or Notes (Timeline Items)&lt;/h1&gt;&lt;p&gt;To determine the items on the timeline, the FACT_RELATIONSHIP table will store the tuples that serve as the basis for assignment of each item to its Condition Group (see diagram &quot;Condition Groups&quot;).&amp;nbsp; The FACT_IDs can point to one of the following:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;EPISODE&lt;/li&gt;&lt;li&gt;NOTE_NLP&lt;/li&gt;&lt;li&gt;DRUG_EXPOSURE&lt;/li&gt;&lt;li&gt;MEASUREMENT&lt;/li&gt;&lt;li&gt;CONDITION_OCCURRENCE&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Records in the EPISODE table can have a PARENT_ID, which places it as a descendent of another EPISODE record, as is the case of a recurring condition or a drug given as part of a physician order.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EPISODE_EVENT records contain references to the above list of entities as well, and represent the details of an EPISODE.&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-1">
+          <mxGeometry x="10" y="530" width="710" height="320" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
