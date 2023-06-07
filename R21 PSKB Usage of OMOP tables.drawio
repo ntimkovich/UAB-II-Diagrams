@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T12:27:36.826Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s-oQ1-IxSiQFJw3rKHk4" version="21.3.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-07T12:31:26.366Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="1Os0_7TWV7uiqDg727O8" version="21.3.2" type="github" pages="2">
   <diagram name="Condition Groups" id="PCFXS-JAIQ8bynVuSYlD">
     <mxGraphModel dx="1111" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -208,8 +208,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wQrSugunlHA_ni6WsSIa-8" value="&lt;h1&gt;Interventions, Measurements, or Notes (Timeline Items)&lt;/h1&gt;&lt;p&gt;To determine the items on the timeline, the FACT_RELATIONSHIP table will store the tuples that serve as the basis for assignment of each item to its Condition Group (see diagram &quot;Condition Groups&quot;).&amp;nbsp; The FACT_IDs can point to one of the following:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;EPISODE&lt;/li&gt;&lt;li&gt;NOTE_NLP&lt;/li&gt;&lt;li&gt;DRUG_EXPOSURE&lt;/li&gt;&lt;li&gt;MEASUREMENT&lt;/li&gt;&lt;li&gt;CONDITION_OCCURRENCE&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Records in the EPISODE table can have a PARENT_ID, which places it as a descendent of another EPISODE record, as is the case of a recurring condition or a drug given as part of a physician order.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EPISODE_EVENT records contain references to the above list of entities as well, and represent the details of an EPISODE.&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-1">
-          <mxGeometry x="10" y="530" width="710" height="320" as="geometry" />
+        <mxCell id="wQrSugunlHA_ni6WsSIa-8" value="&lt;h1&gt;Interventions, Measurements, or Notes (Timeline Items)&lt;/h1&gt;&lt;p&gt;To determine the items on the timeline, the FACT_RELATIONSHIP table will store the tuples that serve as the basis for assignment of each item to its Condition Group (see diagram &quot;Condition Groups&quot;).&amp;nbsp; The FACT_IDs can point to one of the following:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;EPISODE&lt;/li&gt;&lt;li&gt;NOTE_NLP&lt;/li&gt;&lt;li&gt;DRUG_EXPOSURE&lt;/li&gt;&lt;li&gt;MEASUREMENT&lt;/li&gt;&lt;li&gt;CONDITION_OCCURRENCE&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Records in the EPISODE table can have a PARENT_ID, which places it as a descendent of another EPISODE record, as is the case of a recurring condition or a drug given as part of a physician order.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EPISODE_EVENT records contain references to the above list of entities as well, and represent the details of an EPISODE.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;The *_CONCEPT_ID fields store the ID of the table that the corresponding FACT_ID_* or EVENT_ID references.&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="pq_qnGHhPT9m3JfkUCgI-1">
+          <mxGeometry x="10" y="530" width="700" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Drfs4gbrUt4vHqcjye4e-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="pq_qnGHhPT9m3JfkUCgI-1" source="pq_qnGHhPT9m3JfkUCgI-9" target="wQrSugunlHA_ni6WsSIa-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="235" />
+              <mxPoint x="830" y="310" />
+              <mxPoint x="590" y="310" />
+              <mxPoint x="590" y="415" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
