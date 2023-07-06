@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2023-07-06T14:02:05.531Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.8" etag="-PkcjWfUyKnavtv8uMZN" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-06T16:00:51.473Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="_NSaiVU-XQZHddGgdmOn" version="21.3.8" type="github">
   <diagram name="Page-1" id="cIU5QUqBWw8RvbgeiSip">
-    <mxGraphModel>
+    <mxGraphModel dx="1482" dy="785" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-2" value="Research Computing" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="90" width="360" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-3" value="Cheaha" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vjYjaEo1t6c8T_3VEwsU-2">
+          <mxGeometry x="115" y="50" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-4" value="OpenStack" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vjYjaEo1t6c8T_3VEwsU-2">
+          <mxGeometry x="115" y="250" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-5" value="Clinical Research Informatics" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="90" width="270" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-8" value="DataLENS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vjYjaEo1t6c8T_3VEwsU-5">
+          <mxGeometry x="65" y="60" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-13" value="i2b2" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="vjYjaEo1t6c8T_3VEwsU-5">
+          <mxGeometry x="65" y="230" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-6" value="HSIS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="620" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-9" value="WordPress&lt;br&gt;(Public Content Site)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="560" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-10" value="Gitlab" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="710" y="560" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-11" value="GitHub" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="870" y="560" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-12" value="AirTables" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="710" y="710" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vjYjaEo1t6c8T_3VEwsU-14" value="Box&lt;br&gt;(Documentation)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="870" y="710" width="130" height="130" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
