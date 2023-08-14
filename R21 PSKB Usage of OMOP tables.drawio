@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-14T14:37:37.746Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="62UVUi1Cdz9YKyt-SeGI" version="21.6.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-08-14T16:03:52.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="In8HyAlWKFEkNwkKj1RM" version="21.6.8" type="github" pages="8">
   <diagram name="Condition Groups CO" id="PCFXS-JAIQ8bynVuSYlD">
     <mxGraphModel dx="1116" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -932,6 +932,73 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="knC-tCt1J-QN2gcdTiGS-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="knC-tCt1J-QN2gcdTiGS-38" target="knC-tCt1J-QN2gcdTiGS-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-72" value="EPISODE (Parent CONDITION)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1210" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-73" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-72">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-74" value="PARENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-72">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-75" value="EPISODE_OBJECT_CONCEPT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-72">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-76" value="EPISODE_EVENT (CONDITION)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="1420" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-77" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-76">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-78" value="EVENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-76">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-79" value="EPISODE_EVENT_FIELD_CONCEPT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-76">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="knC-tCt1J-QN2gcdTiGS-73" target="knC-tCt1J-QN2gcdTiGS-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-81" value="EPISODE_EVENT_FIELD_CONCEPT_ID = &#39;CONDITION_OCCURRENCE&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1580" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-82" value="CONDITION_OCCURENCE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1420" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-83" value="CONDITION_OCCURENCE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-82">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-84" value="Data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-82">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-85" value="Data" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-82">
+          <mxGeometry y="90" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="knC-tCt1J-QN2gcdTiGS-78" target="knC-tCt1J-QN2gcdTiGS-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-91" value="EPISODE (Descendants)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1210" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-92" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-91">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="knC-tCt1J-QN2gcdTiGS-91" source="knC-tCt1J-QN2gcdTiGS-93" target="knC-tCt1J-QN2gcdTiGS-92">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-20" y="75" />
+              <mxPoint x="-20" y="110" />
+              <mxPoint x="250" y="110" />
+              <mxPoint x="250" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-93" value="PARENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="knC-tCt1J-QN2gcdTiGS-91">
+          <mxGeometry y="60" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="knC-tCt1J-QN2gcdTiGS-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="knC-tCt1J-QN2gcdTiGS-93" target="knC-tCt1J-QN2gcdTiGS-73">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
