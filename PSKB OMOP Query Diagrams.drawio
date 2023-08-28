@@ -1,9 +1,186 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T21:17:40.913Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.6.9" etag="W4Bf7r164fZmN9hZiC-P" type="github">
-  <diagram name="Page-1" id="kNaTmeRahDrnGW6NmXLn">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2023-08-28T22:03:25.670Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="TQi7FTP4YIC4Fzk9yqeS" version="21.6.9" type="github">
+  <diagram name="EPISODE Ancestry" id="kNaTmeRahDrnGW6NmXLn">
+    <mxGraphModel dx="1454" dy="1998" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-7" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;PSKB_EPISODE_ANCESTOR&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="690" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-1" value="EPISODE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-7">
+          <mxGeometry x="75" y="60" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-2" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-1">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-1" source="FwNfdNtFW2o_dWTOu5ou-3" target="FwNfdNtFW2o_dWTOu5ou-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="170" y="75" />
+              <mxPoint x="170" y="120" />
+              <mxPoint x="-20" y="120" />
+              <mxPoint x="-20" y="45" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-3" value="EPISODE_PARENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-1">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-6" value="Recursive View to determine every EPISODE&#39;s top-level parent (EPISODE_PARENT_ID = null, i.e. &quot;not a child&quot;).&lt;br&gt;Also contains a record for each top-level parent, with TOP_LEVEL_PARENT_ID = null.&lt;br&gt;All EPISODE records should be represented in the view.&lt;br&gt;This View will be used to assign an EPISODE record to the right CONDITION." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-7">
+          <mxGeometry x="275" y="60" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-8" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;PSKB_NOTE_TO_CO_ANCESTORS&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="690" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-13" value="EPISODE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-8">
+          <mxGeometry x="75" y="30" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-14" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-13">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-16" value="EPISODE_PARENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-13">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-26" value="EPISODE" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-8">
+          <mxGeometry x="75" y="190" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-27" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-26">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-28" value="EPISODE_PARENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-26">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-8" source="FwNfdNtFW2o_dWTOu5ou-28" target="FwNfdNtFW2o_dWTOu5ou-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-30" value="EPISODE_EVENT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-8">
+          <mxGeometry x="300" y="170" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-31" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-30">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=cross;endFill=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-33" value="null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FwNfdNtFW2o_dWTOu5ou-32">
+          <mxGeometry x="0.0098" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-34" value="EVENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-30">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-30" source="FwNfdNtFW2o_dWTOu5ou-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-36" value="CONDITION_OCCURRENCE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FwNfdNtFW2o_dWTOu5ou-35">
+          <mxGeometry x="-0.0045" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-37" value="FIELD_CONCEPT_NAME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-30">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-8" source="FwNfdNtFW2o_dWTOu5ou-27" target="FwNfdNtFW2o_dWTOu5ou-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-40" value="View to find CONDITION_OCCURRENCE children of top-level NOTE_NLP episodes, then select one and use it for assignment to the right CONDITION.&lt;br&gt;Similar structure as EPISODE_ANCESTOR, this will be used to assign EPISODE to the right CONDITION.&lt;br&gt;Uses CTEs to find top-level NOTE_NLP EPISODE records, link to CONDITION_OCCURRENCE children and select the earliest CONDITION_OCCURRENCE based on EPISODE.EPISODE_START_DATETIME&lt;span style=&quot;background-color: initial;&quot;&gt;.&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-8">
+          <mxGeometry x="60" y="310" width="610" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-17" value="EPISODE_EVENT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="400" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-18" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-17">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=cross;endFill=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-17" source="FwNfdNtFW2o_dWTOu5ou-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-23" value="null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FwNfdNtFW2o_dWTOu5ou-22">
+          <mxGeometry x="0.0098" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-19" value="EVENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-17">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-17" source="FwNfdNtFW2o_dWTOu5ou-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="105" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-25" value="NOTE_NLP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FwNfdNtFW2o_dWTOu5ou-24">
+          <mxGeometry x="-0.0045" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-20" value="FIELD_CONCEPT_NAME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-17">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FwNfdNtFW2o_dWTOu5ou-14" target="FwNfdNtFW2o_dWTOu5ou-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-41" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px;&quot;&gt;PSKB_EPISODE_CO_ANCESTOR&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="840" width="690" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-9" value="PSKB_EPISODE_ANCESTOR" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-41">
+          <mxGeometry x="52.5" y="30" width="195" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-10" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-9">
+          <mxGeometry y="30" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-11" value="TOP_LEVEL_PARENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-9">
+          <mxGeometry y="60" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-42" value="EPISODE_EVENT" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-41">
+          <mxGeometry x="340" y="30" width="170" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-43" value="EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-42">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=cross;endFill=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-30" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-45" value="null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FwNfdNtFW2o_dWTOu5ou-44">
+          <mxGeometry x="0.0098" y="-2" relative="1" as="geometry">
+            <mxPoint x="1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-46" value="EVENT_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-42">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-49" value="FIELD_CONCEPT_NAME" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-42">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-41" source="FwNfdNtFW2o_dWTOu5ou-11" target="FwNfdNtFW2o_dWTOu5ou-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-51" value="PSKB_NOTE_TO_CO_ANCESTORS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-41">
+          <mxGeometry x="60" y="180" width="257.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-52" value="NOTE_ANCESTOR_EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-51">
+          <mxGeometry y="30" width="257.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-53" value="CO_ANCESTOR_EPISODE_ID" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-51">
+          <mxGeometry y="60" width="257.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FwNfdNtFW2o_dWTOu5ou-41" source="FwNfdNtFW2o_dWTOu5ou-11" target="FwNfdNtFW2o_dWTOu5ou-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-56" value="View to find the CONDITION_OCCURRENCE ancestor of every EPISODE.&lt;br&gt;Primarily looks in&amp;nbsp;PSKB_EPISODE_ANCESTOR.&amp;nbsp; If the TOP_LEVEL_PARENT is a NOTE_NLP EPISODE, then use the CO_ANCESTOR_EPISODE_ID instead of the TOP_LEVEL_PARENT_ID (which is solely based on EPISODE data).&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;This view will be used for EPISODE assignment to CONDITION_GROUP.&amp;nbsp;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="FwNfdNtFW2o_dWTOu5ou-41">
+          <mxGeometry x="52.5" y="310" width="610" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FwNfdNtFW2o_dWTOu5ou-57" value="&lt;h1&gt;EPISODE ANCESTRY&lt;/h1&gt;&lt;p&gt;This is the documentation for determining the appropriate CONDITION_GROUP for each EPISODE in the PSKB&#39;s OMOP tables.&lt;/p&gt;&lt;p&gt;Each EPISODE has an EPISODE_PARENT_ID to assign it to a parent EPISODE. In the PSKB, this is used when something is in a relationship with a CONDITION, but it may not be the &quot;Original&quot; or &quot;First Occurrence&quot; of a CONDITION.&amp;nbsp; For instance, a medication may be given to a patient during a hospital stay for a condition that was originally diagnosed during a prior encounter. In the OMOP tables, there are multiple conditions that all refer to the same, real-life patient problem, such as &quot;Disease First Occurrence&quot; or &quot;Disease Episode&quot;. The PSKB may contain a tuple (FACT_RELATIONSHIP) record that associates the medication to a different condition record than the one that was generated during the previous encounter.&amp;nbsp; In this case, the EPISODE record could be for a recurrence of the condition, and the EPISODE_PARENT_ID should point to the original, or first, condition.&amp;nbsp; The goal is to assign each EPISODE to the original condition, aka &quot;top-level&quot; EPISODE.&lt;/p&gt;&lt;p&gt;This is coded into the PSKB_EPISODE_ANCESTOR view.&amp;nbsp; Each EPISODE record has a record in the ANCESTOR view, and contains the ID of the EPISODE itself, and the ID of the top-level PARENT EPISODE.&amp;nbsp; It is recursive and will handle multiple levels of parenting, such as grandchildren or great grandchildren - in these cases the TOP_LEVEL_PARENT_ID is the highest up the levels of ancestry, i.e. the record with no parent.&lt;/p&gt;&lt;p&gt;In most cases, the top-level parent will be a CONDITION_OCCURRENCE EPISODE record, and this record contains the information to assign the EPISODE to a CONDITION.&amp;nbsp; It can occur, however, that the top-level parent is a NOTE_NLP record, and in this case, there is not enough structured data to assign the EPISODE to a CONDITION.&amp;nbsp; In this case, the top-level CONDITION EPISODE is found by searching all children of the NOTE_NLP ancestor record.&amp;nbsp; This represents the real-world scenario in which an intervention is in a note but at the time of the note, there is no CONDITION_OCCURRENCE record in the OMOP table.&amp;nbsp; So the assumption is made that a subsequent EPISODE will also be assigned to the NOTE_NLP parent record that does contain a reference to the CONDITION_OCCURRENCE.&amp;nbsp; This will then be used as the top-level parent for the EPISODE.&lt;/p&gt;&lt;p&gt;the PSKB_EPISODE_CO_ANCESTOR view will&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-430" width="690" height="480" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
