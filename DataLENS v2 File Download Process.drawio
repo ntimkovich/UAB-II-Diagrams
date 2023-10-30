@@ -1,9 +1,96 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T18:42:17.635Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="21.6.6" etag="wiK373YA0VZp1cua7cbb" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T18:52:08.049Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="_dACiZoKpZ5dmMuhIQ9a" version="21.6.6" type="github">
   <diagram name="Page-1" id="-oYLGjwDflNFFK01mnoo">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEgfuZ1T80wmrvtyKlfl-1" target="WEgfuZ1T80wmrvtyKlfl-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-4" value="File Upload to System" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEgfuZ1T80wmrvtyKlfl-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-1" value="Standard User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEgfuZ1T80wmrvtyKlfl-2" target="WEgfuZ1T80wmrvtyKlfl-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-7" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEgfuZ1T80wmrvtyKlfl-6">
+          <mxGeometry x="0.04" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEgfuZ1T80wmrvtyKlfl-2" target="WEgfuZ1T80wmrvtyKlfl-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEgfuZ1T80wmrvtyKlfl-11">
+          <mxGeometry x="0.0286" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-2" value="Does File need to be Protected?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="150" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-9" value="File can be downloaded by User with permission to entity that File is attached to" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="160" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEgfuZ1T80wmrvtyKlfl-21" target="WEgfuZ1T80wmrvtyKlfl-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-25" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEgfuZ1T80wmrvtyKlfl-16">
+          <mxGeometry x="-0.0136" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEgfuZ1T80wmrvtyKlfl-14" target="WEgfuZ1T80wmrvtyKlfl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-14" value="EDW Developer or System Administrator reviews File contents and descriptive data" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="355" width="340" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEgfuZ1T80wmrvtyKlfl-15" target="WEgfuZ1T80wmrvtyKlfl-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-19" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEgfuZ1T80wmrvtyKlfl-18">
+          <mxGeometry x="-0.0746" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEgfuZ1T80wmrvtyKlfl-15" target="WEgfuZ1T80wmrvtyKlfl-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-29" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEgfuZ1T80wmrvtyKlfl-28">
+          <mxGeometry x="-0.1818" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-15" value="Can the File be associated with a Protocol?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="520" width="165" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-17" value="EDW Developer or System Administrator associates the File directly with Protocol, and the Protocol&#39;s permissions determine who can download the File." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="535" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-20" value="TO BE DETERMINED: Process for manually setting download permissions for the File" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="710" width="340" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEgfuZ1T80wmrvtyKlfl-21" target="WEgfuZ1T80wmrvtyKlfl-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-24" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WEgfuZ1T80wmrvtyKlfl-23">
+          <mxGeometry x="0.0526" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WEgfuZ1T80wmrvtyKlfl-21" value="Does the File actually &lt;br&gt;need to be protected?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="747.5" y="345" width="175" height="115" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
