@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-12T15:52:58.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UB5R_mrhssP2TvUrY3qk" version="23.1.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-02-12T16:21:27.192Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="IUBsobgwXcv1jdWSKhVr" version="23.1.1" type="github" pages="3">
   <diagram name="Page-1" id="-oYLGjwDflNFFK01mnoo">
     <mxGraphModel dx="1674" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -149,7 +149,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VwRXDMKLVon4hz2ZyG5b-16" value="Files are always associated with another entity, such as a Clinical Dataset or Asset, and are not accessible directly." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="VwRXDMKLVon4hz2ZyG5b-16" value="Files are always associated with another entity, such as an EHR Dataset or Asset, and are not accessible directly." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="420" width="290" height="70" as="geometry" />
         </mxCell>
         <mxCell id="plhM9Ryy3R-arVg6ag14-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VwRXDMKLVon4hz2ZyG5b-17" target="VwRXDMKLVon4hz2ZyG5b-23">
@@ -382,7 +382,7 @@
             <mxPoint x="-22" y="-45" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="plhM9Ryy3R-arVg6ag14-41" value="This path needs review or change.&amp;nbsp; The user uploaded an LDS as an Asset but it&#39;s not linked to a Proj or DR, can they not download it?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+        <mxCell id="plhM9Ryy3R-arVg6ag14-41" value="This path needs review or change.&amp;nbsp; The user uploaded an LDS as an Asset but it&#39;s not linked to a Proj or DR, can they not download their own file?" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="160" y="880" width="200" height="70" as="geometry" />
         </mxCell>
       </root>
