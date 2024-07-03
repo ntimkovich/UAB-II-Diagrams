@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T19:19:04.115Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="C9av2J7GWusSAwqofzTq" version="24.6.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-07-03T19:27:01.638Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="bSa7xOBdEG-44OscUud3" version="24.6.4" type="github" pages="4">
   <diagram id="oblyx62A-xLTeabWtslL" name="New UI Elements">
     <mxGraphModel dx="1077" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -181,9 +181,6 @@
         <mxCell id="9fVATPIVSfKxBd0orW1x-7" value="Determination Date To: 3000-01-01" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="490" y="870" width="280" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="LypuD4R34hKiWU683B0C-23" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/evil-icons-user-interface/64/question-128.png" vertex="1" parent="1">
-          <mxGeometry x="830" y="696.5" width="15.5" height="15.5" as="geometry" />
-        </mxCell>
         <mxCell id="9fVATPIVSfKxBd0orW1x-11" value="" style="endArrow=none;html=1;rounded=0;fontColor=#999999;strokeColor=#999999;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="250" y="830" as="sourcePoint" />
@@ -253,7 +250,7 @@
             <mxPoint x="24" y="25" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="y9G96DpenOLJQxPStnUj-21" value="From 2024-04-16 to (No Expiration)" style="text;fontColor=#999999;fontSize=10;fontStyle=0;verticalAlign=bottom;spacingBottom=2;spacingLeft=16;resizeWidth=1;whiteSpace=wrap;html=1;" vertex="1" parent="y9G96DpenOLJQxPStnUj-18">
+        <mxCell id="y9G96DpenOLJQxPStnUj-21" value="From 2024-04-16 to 3000-01-01" style="text;fontColor=#999999;fontSize=10;fontStyle=0;verticalAlign=bottom;spacingBottom=2;spacingLeft=16;resizeWidth=1;whiteSpace=wrap;html=1;" vertex="1" parent="y9G96DpenOLJQxPStnUj-18">
           <mxGeometry width="187" height="20" relative="1" as="geometry">
             <mxPoint y="45" as="offset" />
           </mxGeometry>
@@ -550,6 +547,9 @@
         <mxCell id="y9G96DpenOLJQxPStnUj-103" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/phosphor-duotone-vol-5/256/x-circle-duotone-128.png" vertex="1" parent="1">
           <mxGeometry x="260" y="1857" width="34" height="34" as="geometry" />
         </mxCell>
+        <mxCell id="u4033ZUEiHfLZH4pvvwV-1" value="This is either a new &quot;Protocol Info&quot; pop-up, or could just be a part of a new Protocol info page." style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;align=left;perimeterSpacing=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="750" width="180" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -651,14 +651,22 @@
         <mxCell id="ZEu6KAakkYMz-OtZFTBN-1" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="20" y="510" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FHXmpwSt7Y_aOnUkliDF-15" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="60" y="500" width="198" height="30" as="geometry" />
+        <mxCell id="1VkzGE9y7OcMLbZQturc-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="60" y="500" width="370" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="FHXmpwSt7Y_aOnUkliDF-10" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-checkmark-outline-128.png;fontColor=#00994D;" vertex="1" parent="FHXmpwSt7Y_aOnUkliDF-15">
-          <mxGeometry y="2" width="28" height="28" as="geometry" />
+        <mxCell id="1VkzGE9y7OcMLbZQturc-2" value="Not Human Subjects Research (Future Determination Date)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF3333;" vertex="1" parent="1VkzGE9y7OcMLbZQturc-1">
+          <mxGeometry x="28" width="342" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FHXmpwSt7Y_aOnUkliDF-11" value="Not Human Subjects Research" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#00994D;" vertex="1" parent="FHXmpwSt7Y_aOnUkliDF-15">
-          <mxGeometry x="28" width="170" height="30" as="geometry" />
+        <mxCell id="1VkzGE9y7OcMLbZQturc-3" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn3.iconfinder.com/data/icons/flat-actions-icons-9/792/Close_Icon_Dark-128.png" vertex="1" parent="1VkzGE9y7OcMLbZQturc-1">
+          <mxGeometry x="-10" y="-3" width="38" height="38" as="geometry" />
+        </mxCell>
+        <UserObject label="Info" link="https://www.draw.io" id="1VkzGE9y7OcMLbZQturc-4">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;whiteSpace=wrap;align=center;verticalAlign=middle;fontColor=#0000EE;fontStyle=4;" vertex="1" parent="1">
+            <mxGeometry x="394" y="495" width="60" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="1VkzGE9y7OcMLbZQturc-5" value="Link opens a Protocol Info Pop-up&amp;nbsp;&lt;div&gt;or navs to Protocol Page&lt;/div&gt;" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="230" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
