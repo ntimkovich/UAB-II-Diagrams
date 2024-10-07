@@ -1,89 +1,190 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
-  <diagram name="Page-1" id="2TKLxNtYmy6QfGoB0J_1">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16" pages="2">
+  <diagram name="Phase 1 Ad-Hoc Processing" id="2TKLxNtYmy6QfGoB0J_1">
     <mxGraphModel dx="2342" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=85;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-1" target="KiQSlgWOS6FslWwaCVDV-13">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=85;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="KiQSlgWOS6FslWwaCVDV-1" target="KiQSlgWOS6FslWwaCVDV-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-19" value="Mixed&lt;div&gt;PHI and De-ID data&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KiQSlgWOS6FslWwaCVDV-15">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-19" value="Map/Application Images and UI&lt;div&gt;(No PHI)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KiQSlgWOS6FslWwaCVDV-15" vertex="1" connectable="0">
           <mxGeometry x="0.0313" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-1" target="KiQSlgWOS6FslWwaCVDV-21">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="1" source="KiQSlgWOS6FslWwaCVDV-1" target="KiQSlgWOS6FslWwaCVDV-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-1" value="ArcGIS Enterprise" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="420" width="170" height="190" as="geometry" />
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-1" value="ArcGIS Enterprise" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="380" width="170" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-2" value="Oracle EDW&lt;div&gt;in4mp&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-2" value="Oracle EDW&lt;div&gt;in4mp&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="850" y="459.5" width="150" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-3" value="Control-M" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="830" y="200" width="170" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-4" value="DataLENS User Browser" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1" vertex="1" parent="1">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-4" value="DataLENS User Browser" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1" parent="1" vertex="1">
           <mxGeometry x="10" y="759.5" width="100" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-5" value="DataLENS API Server" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="710" width="170" height="190" as="geometry" />
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-5" value="DataLENS API Server" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="740" width="170" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=95;exitDy=140;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-3" target="KiQSlgWOS6FslWwaCVDV-2">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=170;exitDy=105;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="1" source="KiQSlgWOS6FslWwaCVDV-5" target="KiQSlgWOS6FslWwaCVDV-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=170;entryDy=105;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-2" target="KiQSlgWOS6FslWwaCVDV-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-9" value="PHI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KiQSlgWOS6FslWwaCVDV-7">
-          <mxGeometry x="0.0031" y="1" relative="1" as="geometry">
-            <mxPoint x="-1" y="2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-8" value="Control-M will run nightly job to geocode all patient addresses in the EDW.&amp;nbsp; Addresses are sent from the EDW data store (in4mp) to ArcGIS, which returns the geospatial data for each address, which in turn gets stored in the EDW." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="225" width="280" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=170;exitDy=105;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-5" target="KiQSlgWOS6FslWwaCVDV-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-17" value="PHI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KiQSlgWOS6FslWwaCVDV-10">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-17" value="Send: Cohort Identifier&lt;div&gt;Receive: List of Patient Addresses&lt;br&gt;(PHI)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KiQSlgWOS6FslWwaCVDV-10" vertex="1" connectable="0">
           <mxGeometry x="0.3802" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-11" value="On demand, an authorized user in DataLENS will select a patient Cohort and request a GIS map or application with the selected Cohort.&amp;nbsp; The API will access in4mp to retrieve the geospatial data for the patients in the Cohort.&amp;nbsp; That geospatial data is passed back to ArcGIS along with other parameters detailing the requested map/application.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ArcGIS returns data/images/app to the DataLENS UI, which displays it to the user.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="450" width="285" height="180" as="geometry" />
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-11" value="On demand, an authorized user in DataLENS will select a patient Cohort and request a GIS map or application with the selected Cohort.&amp;nbsp; The DataLENS API will access in4mp to retrieve the addresses for the patients in the Cohort.&amp;nbsp; The addresses along with the user&#39;s request information is passed to ArcGIS which geo-codes the addresses and handles the request.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ArcGIS returns images/app to the DataLENS UI, which displays it to the user.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="10" y="480" width="285" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=95;entryDy=190;entryPerimeter=0;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-5" target="KiQSlgWOS6FslWwaCVDV-1">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=95;entryDy=190;entryPerimeter=0;" parent="1" source="KiQSlgWOS6FslWwaCVDV-5" target="KiQSlgWOS6FslWwaCVDV-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-18" value="PHI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KiQSlgWOS6FslWwaCVDV-12">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-18" value="Send: User Request Info and&amp;nbsp;&lt;div&gt;List of Patient Addresses&lt;/div&gt;&lt;div&gt;(PHI)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KiQSlgWOS6FslWwaCVDV-12" vertex="1" connectable="0">
           <mxGeometry x="0.1" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-13" target="KiQSlgWOS6FslWwaCVDV-4">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="KiQSlgWOS6FslWwaCVDV-13" target="KiQSlgWOS6FslWwaCVDV-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-13" value="DataLENS UI&lt;div&gt;React app&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JbJ4VXh62EH80LLIuKsD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-13" target="KiQSlgWOS6FslWwaCVDV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-13" value="DataLENS UI&lt;div&gt;React app&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="650" width="120" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=85;entryPerimeter=0;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-13" target="KiQSlgWOS6FslWwaCVDV-5">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=85;entryPerimeter=0;" parent="1" source="KiQSlgWOS6FslWwaCVDV-13" target="KiQSlgWOS6FslWwaCVDV-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-20" value="GIS Request&lt;div&gt;No PHI&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KiQSlgWOS6FslWwaCVDV-14">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-20" value="Send: GIS User Request&amp;nbsp;&lt;div&gt;with Cohort Identifier&lt;div&gt;(No PHI)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KiQSlgWOS6FslWwaCVDV-14" vertex="1" connectable="0">
           <mxGeometry x="-0.0043" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-21" value="ArcGIS Desktop User" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1" vertex="1" parent="1">
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-21" value="DBIDS Developer" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1" parent="1" vertex="1">
           <mxGeometry x="10" y="249" width="100" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="KiQSlgWOS6FslWwaCVDV-24" value="Named ArcGIS User publishes maps/apps to ArcGIS, configured for research purposes." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="249" width="220" height="81" as="geometry" />
+        <mxCell id="KiQSlgWOS6FslWwaCVDV-24" value="DBIDS Developer as ArcGIS User publishes maps/apps to ArcGIS, configured for research purposes." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="310" width="220" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="JbJ4VXh62EH80LLIuKsD-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="KiQSlgWOS6FslWwaCVDV-13" target="KiQSlgWOS6FslWwaCVDV-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="680" as="sourcePoint" />
+            <mxPoint x="540" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s1P883GEBdy_Ih07scDH-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DataLENS-ArcGIS Data Flow Diagram, Phase 1&lt;/h1&gt;&lt;p&gt;Author: Nick Timkovich, 2024-10-07&lt;/p&gt;&lt;p&gt;PHASE 1: DataLENS processes user requests for GIS-resources on demand, including retrieval and geo-coding of Patient Addresses.&amp;nbsp; GIS maps and apps are deployed by DBIDS developers only.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="150" width="430" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Phase 2 Pre-Processing" id="gf8R-cyojjuzOPENsRs1">
+    <mxGraphModel dx="2342" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-0" />
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-1" parent="OD0X_nnX2S9IneoeOlzm-0" />
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=85;exitPerimeter=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-5" target="OD0X_nnX2S9IneoeOlzm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-3" value="Map/Application Images and UI&lt;div&gt;(No PHI)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OD0X_nnX2S9IneoeOlzm-2">
+          <mxGeometry x="0.0313" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75;exitDy=0;exitPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-5" target="OD0X_nnX2S9IneoeOlzm-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-5" value="ArcGIS Enterprise" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="520" y="420" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-6" value="Oracle EDW&lt;div&gt;in4mp&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="950" y="459.5" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-7" value="Control-M" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="830" y="200" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-8" value="DataLENS User Browser" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="10" y="759.5" width="100" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-9" value="DataLENS API Server" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="590" y="750" width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=95;exitDy=140;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-7" target="OD0X_nnX2S9IneoeOlzm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WDDbd7af9x_EA4vJCIe5-0" value="Job Control" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OD0X_nnX2S9IneoeOlzm-10">
+          <mxGeometry x="-0.0879" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=170;entryDy=105;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-6" target="OD0X_nnX2S9IneoeOlzm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-12" value="Send Patient Addresses&lt;div&gt;Receive: Geo-coded Addresses&lt;/div&gt;&lt;div&gt;(PHI)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OD0X_nnX2S9IneoeOlzm-11">
+          <mxGeometry x="0.0031" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-13" value="Control-M will run nightly job to geocode all patient addresses in the EDW.&amp;nbsp; Addresses are sent from the EDW data store (in4mp) to ArcGIS, which returns the geospatial data for each address, which in turn gets stored in the EDW." style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="540" y="200" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=170;exitDy=105;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-9" target="OD0X_nnX2S9IneoeOlzm-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-15" value="Send: Cohort Identifier&lt;div&gt;Receive: List of Geo-Coded Patient Addresses&lt;br&gt;(PHI)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OD0X_nnX2S9IneoeOlzm-14">
+          <mxGeometry x="0.3802" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-16" value="On demand, an authorized user in DataLENS will select a patient Cohort and request a GIS map or application with the selected Cohort.&amp;nbsp; The API will access in4mp to retrieve the geospatial data for the patients in the Cohort.&amp;nbsp; That geospatial data is passed back to ArcGIS along with other parameters detailing the requested map/application.&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;ArcGIS returns data/images/app to the DataLENS UI, which displays it to the user.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="100" y="450" width="285" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=75;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=95;entryDy=190;entryPerimeter=0;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-9" target="OD0X_nnX2S9IneoeOlzm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-18" value="PHI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OD0X_nnX2S9IneoeOlzm-17">
+          <mxGeometry x="0.1" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-20" target="OD0X_nnX2S9IneoeOlzm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b1bl5JxBezCRY2_NEiGZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-20" target="OD0X_nnX2S9IneoeOlzm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-20" value="DataLENS UI&lt;div&gt;React app&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="220" y="650" width="120" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=85;entryPerimeter=0;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1" source="OD0X_nnX2S9IneoeOlzm-20" target="OD0X_nnX2S9IneoeOlzm-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-22" value="Send: GIS User Request&amp;nbsp;&lt;div&gt;with Cohort Identifier&lt;div&gt;(No PHI)&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OD0X_nnX2S9IneoeOlzm-21">
+          <mxGeometry x="-0.0043" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-23" value="ArcGIS Desktop User" style="sketch=0;outlineConnect=0;gradientColor=none;fontColor=#545B64;strokeColor=none;fillColor=#879196;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.illustration_desktop;pointerEvents=1" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="10" y="249" width="100" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="OD0X_nnX2S9IneoeOlzm-24" value="Named ArcGIS User publishes maps/apps to ArcGIS, configured for research purposes. (Phase 2 option: UAB GIS developer publishes to ArcGIS instead of DBIDS Dev acting on their behalf)" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="180" y="310" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="b1bl5JxBezCRY2_NEiGZ-0" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="740" as="sourcePoint" />
+            <mxPoint x="220" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sFfpw_SODdlCgDELwY66-0" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;DataLENS-ArcGIS Data Flow Diagram, Phase 2&lt;/h1&gt;&lt;p&gt;Author: Nick Timkovich, 2024-10-07&lt;/p&gt;&lt;p&gt;PHASE 2: DataLENS processes user requests for GIS-resources on demand, but Patient Addresses are geo-coded nightly as a pre-processing step.&amp;nbsp; GIS maps and apps are deployed by DBIDS developers or named GIS developers.&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="OD0X_nnX2S9IneoeOlzm-1">
+          <mxGeometry x="50" y="40" width="430" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
