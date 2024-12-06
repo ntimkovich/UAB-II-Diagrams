@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9" pages="2">
   <diagram name="Page-1" id="oDOsjIZ9o7onu2PiIAry">
-    <mxGraphModel dx="1242" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="994" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="DRt2WUyzL2teUe1RJwLH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=80;entryPerimeter=0;startArrow=classic;startFill=1;strokeWidth=2;" parent="1" source="DRt2WUyzL2teUe1RJwLH-2" target="NKb3vlKUD4mftSYrwLPT-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PUkRxvURCBG6QzdzQoYl-1" value="EHR System&lt;div&gt;(Cerner, Epic)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="PUkRxvURCBG6QzdzQoYl-1" value="EHR System&lt;div&gt;(Cerner, Epic)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;EDW for Clinical Data&lt;br&gt;(Power Insight)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="740" y="285" width="160" height="140" as="geometry" />
         </mxCell>
         <mxCell id="PUkRxvURCBG6QzdzQoYl-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="PUkRxvURCBG6QzdzQoYl-1" target="NKb3vlKUD4mftSYrwLPT-1">
@@ -41,7 +41,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="btvcLaZ-0TU4FYoC4Vuf" name="Page-2">
-    <mxGraphModel dx="2157" dy="1933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3108" dy="2600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,8 +57,8 @@
         <mxCell id="YJKNyBxkx9nuXurc3LKI-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="-qgodvQOzTYyHsjL0HaB-3" target="YJKNyBxkx9nuXurc3LKI-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-qgodvQOzTYyHsjL0HaB-3" value="Pipeline Processing of Notes&lt;div&gt;&lt;br&gt;&lt;div&gt;- Relation Extraction&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Summarization&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
-          <mxGeometry x="532" y="226" width="240" height="90" as="geometry" />
+        <mxCell id="-qgodvQOzTYyHsjL0HaB-3" value="Pipeline Processing of Notes&lt;div&gt;&lt;br&gt;&lt;div&gt;- Relation Extraction&lt;/div&gt;&lt;/div&gt;&lt;div&gt;- Summarization&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Automated Process to Create Tuples, etc&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="532.5" y="215" width="240" height="116" as="geometry" />
         </mxCell>
         <mxCell id="C_NE9tWsYZDKPYj4pV9a-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-qgodvQOzTYyHsjL0HaB-6" target="C_NE9tWsYZDKPYj4pV9a-1">
           <mxGeometry relative="1" as="geometry" />
