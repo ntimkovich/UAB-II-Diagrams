@@ -1,111 +1,10 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.2" pages="2">
-  <diagram name="Graph Perspective RAW" id="cmlUQg_QIB2xVCvcMLsN">
-    <mxGraphModel dx="2794" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.2" pages="3">
+  <diagram id="m-9vc6hwQ8XpzPNi41Zi" name="Graph with orig EPISODE design">
+    <mxGraphModel dx="1234" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-1" value="PERSON&lt;br&gt;aka &quot;Patient&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-2" target="TGLBr18L2IX1VKHZAzUL-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="fJL6O_LH6h3g9yPMemZN-1" value="has_finding_or_condition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TGLBr18L2IX1VKHZAzUL-4">
-          <mxGeometry x="0.1094" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-2" value="CONDITION_OCCURENCE&lt;br&gt;Cardinal Conditions&lt;br&gt;&quot;COPD&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="150" width="190" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-5" target="TGLBr18L2IX1VKHZAzUL-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-5" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2011-2015&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="390" width="190" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-6" target="TGLBr18L2IX1VKHZAzUL-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-115" y="590" />
-              <mxPoint x="-115" y="290" />
-              <mxPoint x="235" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-6" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2015-2016&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="550" width="190" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-7" target="TGLBr18L2IX1VKHZAzUL-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-170" y="715" />
-              <mxPoint x="-170" y="290" />
-              <mxPoint x="235" y="290" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-7" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2016-2020&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-95" y="675" width="190" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-8" target="TGLBr18L2IX1VKHZAzUL-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-8" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-11 0915&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="310" width="230" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-9" target="TGLBr18L2IX1VKHZAzUL-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="105" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-9" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-12 0753&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="440" width="230" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-10" target="TGLBr18L2IX1VKHZAzUL-5">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="105" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-10" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-13 1124&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="570" width="230" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-14" target="TGLBr18L2IX1VKHZAzUL-5">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-14" value="NOTE_NLP&lt;br&gt;&quot;emergent issue with shortness of breath&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="690" width="245" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-16" target="TGLBr18L2IX1VKHZAzUL-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-16" value="MEASUREMENT&lt;br&gt;Value&lt;br&gt;&quot;CRP = xxx&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="95" y="830" width="215" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="TGLBr18L2IX1VKHZAzUL-17" target="TGLBr18L2IX1VKHZAzUL-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TGLBr18L2IX1VKHZAzUL-17" value="NOTE_NLP&lt;br&gt;&quot;resurgence of symptoms&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="820" width="245" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="rP5cD2ZdGAvyv-NNTFPJ-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="rP5cD2ZdGAvyv-NNTFPJ-1" target="TGLBr18L2IX1VKHZAzUL-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="rP5cD2ZdGAvyv-NNTFPJ-1" value="NOTE_NLP&lt;br&gt;&quot;multiple flare-ups for 2 months&quot;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="180" width="203" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="F5i_kS9VCjpIExyPhHNp-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Timeline&amp;nbsp;&lt;/h1&gt;&lt;div&gt;Driven by CONDITION_OCCURENCE nodes &amp;amp; children&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;WHY: for any item to appear on the timeline, it has to ultimately relate back to a CONDITION&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="673" y="315" width="180" height="220" as="geometry" />
-        </mxCell>
-      </root>
-    </mxGraphModel>
-  </diagram>
-  <diagram id="m-9vc6hwQ8XpzPNi41Zi" name="Graph with OLD EPISODE design">
-    <mxGraphModel dx="1694" dy="1030" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
-      <root>
-        <mxCell id="0" />
-        <mxCell id="1" parent="0" />
-        <mxCell id="JAi5cby0_yDlLgqBGOxp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="JAi5cby0_yDlLgqBGOxp-1" target="JAi5cby0_yDlLgqBGOxp-2">
+        <mxCell id="JAi5cby0_yDlLgqBGOxp-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="JAi5cby0_yDlLgqBGOxp-1" target="JAi5cby0_yDlLgqBGOxp-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="550" y="140" />
@@ -113,87 +12,87 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rDTLSH4t1FSZGFXInxzZ-1" value="has_finding_or_condition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="JAi5cby0_yDlLgqBGOxp-8">
+        <mxCell id="rDTLSH4t1FSZGFXInxzZ-1" value="has_finding_or_condition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="JAi5cby0_yDlLgqBGOxp-8" vertex="1" connectable="0">
           <mxGeometry x="-0.1842" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JAi5cby0_yDlLgqBGOxp-1" value="PERSON" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JAi5cby0_yDlLgqBGOxp-1" value="PERSON" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="20" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JAi5cby0_yDlLgqBGOxp-5" value="CARDINAL CONDITION" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="JAi5cby0_yDlLgqBGOxp-5" value="CARDINAL CONDITION" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="170" width="470" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="JAi5cby0_yDlLgqBGOxp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JAi5cby0_yDlLgqBGOxp-5" source="JAi5cby0_yDlLgqBGOxp-2" target="JAi5cby0_yDlLgqBGOxp-3">
+        <mxCell id="JAi5cby0_yDlLgqBGOxp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="JAi5cby0_yDlLgqBGOxp-5" source="JAi5cby0_yDlLgqBGOxp-2" target="JAi5cby0_yDlLgqBGOxp-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JAi5cby0_yDlLgqBGOxp-2" value="EPISODE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JAi5cby0_yDlLgqBGOxp-5">
+        <mxCell id="JAi5cby0_yDlLgqBGOxp-2" value="EPISODE" style="ellipse;whiteSpace=wrap;html=1;" parent="JAi5cby0_yDlLgqBGOxp-5" vertex="1">
           <mxGeometry x="35" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JAi5cby0_yDlLgqBGOxp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="JAi5cby0_yDlLgqBGOxp-5" source="JAi5cby0_yDlLgqBGOxp-3" target="JAi5cby0_yDlLgqBGOxp-4">
+        <mxCell id="JAi5cby0_yDlLgqBGOxp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="JAi5cby0_yDlLgqBGOxp-5" source="JAi5cby0_yDlLgqBGOxp-3" target="JAi5cby0_yDlLgqBGOxp-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JAi5cby0_yDlLgqBGOxp-3" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JAi5cby0_yDlLgqBGOxp-5">
+        <mxCell id="JAi5cby0_yDlLgqBGOxp-3" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" parent="JAi5cby0_yDlLgqBGOxp-5" vertex="1">
           <mxGeometry x="185" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="JAi5cby0_yDlLgqBGOxp-4" value="CONDITION&lt;br&gt;OCCURRENCE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="JAi5cby0_yDlLgqBGOxp-5">
+        <mxCell id="JAi5cby0_yDlLgqBGOxp-4" value="CONDITION&lt;br&gt;OCCURRENCE" style="ellipse;whiteSpace=wrap;html=1;" parent="JAi5cby0_yDlLgqBGOxp-5" vertex="1">
           <mxGeometry x="335" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OWBgFl-23eRU_MuD8hJM-1" value="&amp;nbsp;SUBORDINATE CONDITION" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="OWBgFl-23eRU_MuD8hJM-1" value="&amp;nbsp;SUBORDINATE CONDITION" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="80" y="520" width="470" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="OWBgFl-23eRU_MuD8hJM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OWBgFl-23eRU_MuD8hJM-1" source="OWBgFl-23eRU_MuD8hJM-3" target="OWBgFl-23eRU_MuD8hJM-5">
+        <mxCell id="OWBgFl-23eRU_MuD8hJM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="OWBgFl-23eRU_MuD8hJM-1" source="OWBgFl-23eRU_MuD8hJM-3" target="OWBgFl-23eRU_MuD8hJM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OWBgFl-23eRU_MuD8hJM-3" value="EPISODE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OWBgFl-23eRU_MuD8hJM-1">
+        <mxCell id="OWBgFl-23eRU_MuD8hJM-3" value="EPISODE" style="ellipse;whiteSpace=wrap;html=1;" parent="OWBgFl-23eRU_MuD8hJM-1" vertex="1">
           <mxGeometry x="35" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OWBgFl-23eRU_MuD8hJM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="OWBgFl-23eRU_MuD8hJM-1" source="OWBgFl-23eRU_MuD8hJM-5" target="OWBgFl-23eRU_MuD8hJM-6">
+        <mxCell id="OWBgFl-23eRU_MuD8hJM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="OWBgFl-23eRU_MuD8hJM-1" source="OWBgFl-23eRU_MuD8hJM-5" target="OWBgFl-23eRU_MuD8hJM-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OWBgFl-23eRU_MuD8hJM-5" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OWBgFl-23eRU_MuD8hJM-1">
+        <mxCell id="OWBgFl-23eRU_MuD8hJM-5" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" parent="OWBgFl-23eRU_MuD8hJM-1" vertex="1">
           <mxGeometry x="185" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OWBgFl-23eRU_MuD8hJM-6" value="CONDITION&lt;br&gt;OCCURRENCE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="OWBgFl-23eRU_MuD8hJM-1">
+        <mxCell id="OWBgFl-23eRU_MuD8hJM-6" value="CONDITION&lt;br&gt;OCCURRENCE" style="ellipse;whiteSpace=wrap;html=1;" parent="OWBgFl-23eRU_MuD8hJM-1" vertex="1">
           <mxGeometry x="335" y="60" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OWBgFl-23eRU_MuD8hJM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="OWBgFl-23eRU_MuD8hJM-3" target="JAi5cby0_yDlLgqBGOxp-2">
+        <mxCell id="OWBgFl-23eRU_MuD8hJM-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="OWBgFl-23eRU_MuD8hJM-3" target="JAi5cby0_yDlLgqBGOxp-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rDTLSH4t1FSZGFXInxzZ-2" value="EPISODE_PARENT_ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OWBgFl-23eRU_MuD8hJM-7">
+        <mxCell id="rDTLSH4t1FSZGFXInxzZ-2" value="EPISODE_PARENT_ID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OWBgFl-23eRU_MuD8hJM-7" vertex="1" connectable="0">
           <mxGeometry x="0.0444" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-2" value="DRUG_EXPOSURE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-2" value="DRUG_EXPOSURE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="300" width="335" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W5r_S-qXMuXm-hxvd96_-2" source="W5r_S-qXMuXm-hxvd96_-6" target="W5r_S-qXMuXm-hxvd96_-1">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="W5r_S-qXMuXm-hxvd96_-2" source="W5r_S-qXMuXm-hxvd96_-6" target="W5r_S-qXMuXm-hxvd96_-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-6" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="W5r_S-qXMuXm-hxvd96_-2">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-6" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" parent="W5r_S-qXMuXm-hxvd96_-2" vertex="1">
           <mxGeometry x="40" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-1" value="DRUG&lt;br&gt;EXPOSURE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="W5r_S-qXMuXm-hxvd96_-2">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-1" value="DRUG&lt;br&gt;EXPOSURE" style="ellipse;whiteSpace=wrap;html=1;" parent="W5r_S-qXMuXm-hxvd96_-2" vertex="1">
           <mxGeometry x="190" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-9" value="DRUG_EXPOSURE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-9" value="DRUG_EXPOSURE" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="510" width="335" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="W5r_S-qXMuXm-hxvd96_-9" source="W5r_S-qXMuXm-hxvd96_-11" target="W5r_S-qXMuXm-hxvd96_-12">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="W5r_S-qXMuXm-hxvd96_-9" source="W5r_S-qXMuXm-hxvd96_-11" target="W5r_S-qXMuXm-hxvd96_-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-11" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="W5r_S-qXMuXm-hxvd96_-9">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-11" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" parent="W5r_S-qXMuXm-hxvd96_-9" vertex="1">
           <mxGeometry x="40" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-12" value="DRUG&lt;br&gt;EXPOSURE" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="W5r_S-qXMuXm-hxvd96_-9">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-12" value="DRUG&lt;br&gt;EXPOSURE" style="ellipse;whiteSpace=wrap;html=1;" parent="W5r_S-qXMuXm-hxvd96_-9" vertex="1">
           <mxGeometry x="190" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5r_S-qXMuXm-hxvd96_-6" target="JAi5cby0_yDlLgqBGOxp-2">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="W5r_S-qXMuXm-hxvd96_-6" target="JAi5cby0_yDlLgqBGOxp-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="710" y="400" />
@@ -201,7 +100,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="W5r_S-qXMuXm-hxvd96_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="W5r_S-qXMuXm-hxvd96_-11" target="JAi5cby0_yDlLgqBGOxp-2">
+        <mxCell id="W5r_S-qXMuXm-hxvd96_-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="W5r_S-qXMuXm-hxvd96_-11" target="JAi5cby0_yDlLgqBGOxp-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="630" y="605" />
@@ -210,45 +109,247 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-1" value="MEASEUREMENT" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dosHXpZue_CSekS5t_AE-1" value="MEASEUREMENT" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="730" width="335" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dosHXpZue_CSekS5t_AE-1" source="dosHXpZue_CSekS5t_AE-3" target="dosHXpZue_CSekS5t_AE-4">
+        <mxCell id="dosHXpZue_CSekS5t_AE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="dosHXpZue_CSekS5t_AE-1" source="dosHXpZue_CSekS5t_AE-3" target="dosHXpZue_CSekS5t_AE-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-3" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dosHXpZue_CSekS5t_AE-1">
+        <mxCell id="dosHXpZue_CSekS5t_AE-3" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" parent="dosHXpZue_CSekS5t_AE-1" vertex="1">
           <mxGeometry x="40" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-4" value="MEASUREMENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dosHXpZue_CSekS5t_AE-1">
+        <mxCell id="dosHXpZue_CSekS5t_AE-4" value="MEASUREMENT" style="ellipse;whiteSpace=wrap;html=1;" parent="dosHXpZue_CSekS5t_AE-1" vertex="1">
           <mxGeometry x="190" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dosHXpZue_CSekS5t_AE-3" target="OWBgFl-23eRU_MuD8hJM-3">
+        <mxCell id="dosHXpZue_CSekS5t_AE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dosHXpZue_CSekS5t_AE-3" target="OWBgFl-23eRU_MuD8hJM-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dosHXpZue_CSekS5t_AE-7" target="OWBgFl-23eRU_MuD8hJM-3">
+        <mxCell id="dosHXpZue_CSekS5t_AE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dosHXpZue_CSekS5t_AE-7" target="OWBgFl-23eRU_MuD8hJM-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-7" value="NOTE_NLP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dosHXpZue_CSekS5t_AE-7" value="NOTE_NLP" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="890" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-9" value="NOTE_NLP" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dosHXpZue_CSekS5t_AE-9" value="NOTE_NLP" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="670" y="950" width="335" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dosHXpZue_CSekS5t_AE-9" source="dosHXpZue_CSekS5t_AE-11" target="dosHXpZue_CSekS5t_AE-12">
+        <mxCell id="dosHXpZue_CSekS5t_AE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="dosHXpZue_CSekS5t_AE-9" source="dosHXpZue_CSekS5t_AE-11" target="dosHXpZue_CSekS5t_AE-12" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-11" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dosHXpZue_CSekS5t_AE-9">
+        <mxCell id="dosHXpZue_CSekS5t_AE-11" value="EPISODE_EVENT" style="ellipse;whiteSpace=wrap;html=1;" parent="dosHXpZue_CSekS5t_AE-9" vertex="1">
           <mxGeometry x="40" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-12" value="NOTE_NLP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dosHXpZue_CSekS5t_AE-9">
+        <mxCell id="dosHXpZue_CSekS5t_AE-12" value="NOTE_NLP" style="ellipse;whiteSpace=wrap;html=1;" parent="dosHXpZue_CSekS5t_AE-9" vertex="1">
           <mxGeometry x="190" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="dosHXpZue_CSekS5t_AE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="dosHXpZue_CSekS5t_AE-11" target="OWBgFl-23eRU_MuD8hJM-3">
+        <mxCell id="dosHXpZue_CSekS5t_AE-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" source="dosHXpZue_CSekS5t_AE-11" target="OWBgFl-23eRU_MuD8hJM-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Graph Perspective RAW" id="cmlUQg_QIB2xVCvcMLsN">
+    <mxGraphModel dx="2334" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-1" value="PERSON&lt;br&gt;aka &quot;Patient&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" parent="1" vertex="1">
+          <mxGeometry x="480" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="TGLBr18L2IX1VKHZAzUL-2" target="TGLBr18L2IX1VKHZAzUL-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fJL6O_LH6h3g9yPMemZN-1" value="has_finding_or_condition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="TGLBr18L2IX1VKHZAzUL-4" vertex="1" connectable="0">
+          <mxGeometry x="0.1094" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-2" value="CONDITION_OCCURENCE&lt;br&gt;Cardinal Conditions&lt;br&gt;&quot;COPD&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="140" y="150" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-21" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" parent="1" source="TGLBr18L2IX1VKHZAzUL-5" target="TGLBr18L2IX1VKHZAzUL-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-5" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2011-2015&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-95" y="390" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="TGLBr18L2IX1VKHZAzUL-6" target="TGLBr18L2IX1VKHZAzUL-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-115" y="590" />
+              <mxPoint x="-115" y="290" />
+              <mxPoint x="235" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-6" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2015-2016&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-95" y="550" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" parent="1" source="TGLBr18L2IX1VKHZAzUL-7" target="TGLBr18L2IX1VKHZAzUL-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-170" y="715" />
+              <mxPoint x="-170" y="290" />
+              <mxPoint x="235" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-7" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2016-2020&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="-95" y="675" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="TGLBr18L2IX1VKHZAzUL-8" target="TGLBr18L2IX1VKHZAzUL-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-8" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-11 0915&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="320" y="310" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="TGLBr18L2IX1VKHZAzUL-9" target="TGLBr18L2IX1VKHZAzUL-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-9" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-12 0753&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="320" y="440" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="TGLBr18L2IX1VKHZAzUL-10" target="TGLBr18L2IX1VKHZAzUL-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-10" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-13 1124&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="320" y="570" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="TGLBr18L2IX1VKHZAzUL-14" target="TGLBr18L2IX1VKHZAzUL-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-14" value="NOTE_NLP&lt;br&gt;&quot;emergent issue with shortness of breath&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="320" y="690" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="TGLBr18L2IX1VKHZAzUL-16" target="TGLBr18L2IX1VKHZAzUL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-16" value="MEASUREMENT&lt;br&gt;Value&lt;br&gt;&quot;CRP = xxx&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="95" y="830" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="TGLBr18L2IX1VKHZAzUL-17" target="TGLBr18L2IX1VKHZAzUL-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TGLBr18L2IX1VKHZAzUL-17" value="NOTE_NLP&lt;br&gt;&quot;resurgence of symptoms&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="-250" y="820" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rP5cD2ZdGAvyv-NNTFPJ-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="rP5cD2ZdGAvyv-NNTFPJ-1" target="TGLBr18L2IX1VKHZAzUL-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rP5cD2ZdGAvyv-NNTFPJ-1" value="NOTE_NLP&lt;br&gt;&quot;multiple flare-ups for 2 months&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="470" y="180" width="203" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F5i_kS9VCjpIExyPhHNp-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Timeline&amp;nbsp;&lt;/h1&gt;&lt;div&gt;Driven by CONDITION_OCCURENCE nodes &amp;amp; children&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;WHY: for any item to appear on the timeline, it has to ultimately relate back to a CONDITION&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="673" y="315" width="180" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Graph and Episode Combined" id="oZzEHwYWY-Qo_Zf3OGV5">
+    <mxGraphModel dx="2334" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-0" />
+        <mxCell id="YLjcKBrnd638QA2pCr3D-1" parent="YLjcKBrnd638QA2pCr3D-0" />
+        <mxCell id="YLjcKBrnd638QA2pCr3D-2" value="PERSON&lt;br&gt;aka &quot;Patient&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="480" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-5" target="YLjcKBrnd638QA2pCr3D-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-4" value="has_finding_or_condition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YLjcKBrnd638QA2pCr3D-3">
+          <mxGeometry x="0.1094" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-5" value="CONDITION_OCCURENCE&lt;br&gt;Cardinal Conditions&lt;br&gt;&quot;COPD&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="140" y="150" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-6" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-7" target="YLjcKBrnd638QA2pCr3D-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-7" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2011-2015&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="-95" y="390" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-9" target="YLjcKBrnd638QA2pCr3D-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-115" y="590" />
+              <mxPoint x="-115" y="290" />
+              <mxPoint x="235" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-9" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2015-2016&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="-95" y="550" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-11" target="YLjcKBrnd638QA2pCr3D-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-170" y="715" />
+              <mxPoint x="-170" y="290" />
+              <mxPoint x="235" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-11" value="CONDITION_OCCURENCE&lt;br&gt;Subordinate Conditions&lt;br&gt;&quot;COPD 2016-2020&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="-95" y="675" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-13" target="YLjcKBrnd638QA2pCr3D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-13" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-11 0915&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="320" y="310" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-15" target="YLjcKBrnd638QA2pCr3D-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-15" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-12 0753&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="320" y="440" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-17" target="YLjcKBrnd638QA2pCr3D-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-17" value="DRUG_EXPOSURE&lt;br&gt;Intervention&lt;br&gt;&quot;Nitroglycerin 50mg 2011-10-13 1124&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="320" y="570" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-19" target="YLjcKBrnd638QA2pCr3D-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-19" value="NOTE_NLP&lt;br&gt;&quot;emergent issue with shortness of breath&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="320" y="690" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-21" target="YLjcKBrnd638QA2pCr3D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-21" value="MEASUREMENT&lt;br&gt;Value&lt;br&gt;&quot;CRP = xxx&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="95" y="830" width="215" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-23" target="YLjcKBrnd638QA2pCr3D-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-23" value="NOTE_NLP&lt;br&gt;&quot;resurgence of symptoms&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="-250" y="820" width="245" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="YLjcKBrnd638QA2pCr3D-1" source="YLjcKBrnd638QA2pCr3D-25" target="YLjcKBrnd638QA2pCr3D-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-25" value="NOTE_NLP&lt;br&gt;&quot;multiple flare-ups for 2 months&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="470" y="180" width="203" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YLjcKBrnd638QA2pCr3D-26" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Timeline&amp;nbsp;&lt;/h1&gt;&lt;div&gt;Driven by CONDITION_OCCURENCE nodes &amp;amp; children&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;WHY: for any item to appear on the timeline, it has to ultimately relate back to a CONDITION&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="YLjcKBrnd638QA2pCr3D-1">
+          <mxGeometry x="673" y="315" width="180" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
